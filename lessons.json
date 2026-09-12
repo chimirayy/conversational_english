@@ -1,0 +1,1357 @@
+[
+  {
+    "day": 1,
+    "title": "Introductions",
+    "theme": "Names, hometowns, and first impressions.",
+    "objective": "Introduce yourself and keep a first meeting going",
+    "focus": "Open questions and short answers",
+    "teaching": "Use “What do you do?” for work or study. “Where are you from?” asks about origin; “Where do you live?” asks about your current home. After answering, return the question.",
+    "dialogue": [
+      "A: Hi, I’m Maya. Is this your first time here?",
+      "B: Yes, it is. I’m Sam. Nice to meet you.",
+      "A: Nice to meet you too. Where are you from?",
+      "B: I’m from Recife, but I live here now. How about you?"
+    ],
+    "usage": "A friendly follow-up (“How about you?”) prevents the conversation from ending after one answer.",
+    "phrases": [
+      "\"Hi, I'm ...\"",
+      "\"Where are you from?\"",
+      "\"It's nice to meet you.\"",
+      "\"What do you do?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which question asks about a person's current home?",
+        "options": [
+          "Where are you from?",
+          "What's your name?",
+          "Where do you live?"
+        ],
+        "answer": 2,
+        "explanation": "“Live” points to the current place."
+      },
+      {
+        "stem": "Choose the natural reply to “Nice to meet you.”",
+        "options": [
+          "From my city.",
+          "Nice to meet you too.",
+          "I am meet."
+        ],
+        "answer": 1,
+        "explanation": "Return the greeting with “too.”"
+      }
+    ],
+    "reflection": "How would you introduce yourself at a community event? Ask two different follow-up questions.",
+    "roleplay": "You meet a new classmate. Exchange names, hometowns, and what you do; each person asks a follow-up."
+  },
+  {
+    "day": 2,
+    "title": "Family and friends",
+    "theme": "Relationships and describing people.",
+    "objective": "Describe relationships clearly and respectfully",
+    "focus": "Present simple for facts; adjectives with examples",
+    "teaching": "“She’s thoughtful” is stronger when followed by evidence: “She checks in when I’m having a hard week.” “We get along” means you have a good relationship.",
+    "dialogue": [
+      "A: Do you have any siblings?",
+      "B: Yes, an older brother. He lives nearby.",
+      "A: Are you two close?",
+      "B: We are. We talk most weekends, although we have different interests."
+    ],
+    "usage": "Ask about family with care: some people prefer to discuss friends or chosen family instead.",
+    "phrases": [
+      "\"I have ... siblings.\"",
+      "\"We're very close.\"",
+      "\"What's your family like?\"",
+      "\"We've known each other for years.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase means “have a good relationship”?",
+        "options": [
+          "Get over",
+          "Get along",
+          "Get around"
+        ],
+        "answer": 1,
+        "explanation": "“Get along” describes a positive relationship."
+      },
+      {
+        "stem": "Which sentence adds a supporting example?",
+        "options": [
+          "My friend is kind because she helps new students.",
+          "My friend is kind.",
+          "Friend kind helping."
+        ],
+        "answer": 0,
+        "explanation": "Specific actions make descriptions clearer."
+      }
+    ],
+    "reflection": "Who is important to you? Describe their personality and one example.",
+    "roleplay": "Introduce someone important to you to a new friend; describe how you met and what you enjoy together."
+  },
+  {
+    "day": 3,
+    "title": "Daily routines",
+    "theme": "Habits, schedules, and frequency.",
+    "objective": "Talk about habits and compare days",
+    "focus": "Frequency adverbs and time expressions",
+    "teaching": "Place “usually,” “often,” and “sometimes” before the main verb (“I usually cook”) but after “be” (“I’m usually home”). Use “on weekdays” for a repeating pattern.",
+    "dialogue": [
+      "A: What does a typical weekday look like for you?",
+      "B: I usually start work at nine, then take a break around noon.",
+      "A: Do you do the same thing on weekends?",
+      "B: Not really. I tend to sleep later and meet friends."
+    ],
+    "usage": "“It depends on the day” is a useful honest answer when your schedule changes.",
+    "phrases": [
+      "\"I usually ...\"",
+      "\"I tend to ...\"",
+      "\"What time do you normally ...?\"",
+      "\"It depends on the day.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which is natural?",
+        "options": [
+          "I usually eat breakfast at eight.",
+          "I eat usually breakfast at eight.",
+          "Usually I am eat breakfast."
+        ],
+        "answer": 0,
+        "explanation": "Frequency adverbs normally precede the main verb."
+      },
+      {
+        "stem": "Choose the natural phrase for a repeated weekday habit.",
+        "options": [
+          "At weekday I take bus.",
+          "In weekdays bus take.",
+          "On weekdays I take the bus."
+        ],
+        "answer": 2,
+        "explanation": "“On weekdays” names the recurring days."
+      }
+    ],
+    "reflection": "Walk through your morning in order. What changes on weekends?",
+    "roleplay": "Ask a partner about their weekday and weekend routines; find two similarities and one difference."
+  },
+  {
+    "day": 4,
+    "title": "Hobbies and free time",
+    "theme": "Interests and invitations.",
+    "objective": "Share interests and invite participation",
+    "focus": "“Be into” and invitations with “Would you like”",
+    "teaching": "“I’m into photography” sounds conversational. Ask “How did you get into it?” to invite a story. For a polite invitation, use “Would you like to join me?”",
+    "dialogue": [
+      "A: What do you do for fun?",
+      "B: I’m into hiking, especially short trails near town.",
+      "A: How did you get into that?",
+      "B: A friend invited me last year. Would you like to join us sometime?"
+    ],
+    "usage": "Give a brief description of what the activity involves, especially if your listener is new to it.",
+    "phrases": [
+      "\"I'm into ...\"",
+      "\"How did you get into that?\"",
+      "\"I do it whenever I can.\"",
+      "\"Would you like to join me?\""
+    ],
+    "quiz": [
+      {
+        "stem": "What does “I’m into painting” mean?",
+        "options": [
+          "I am inside paint.",
+          "I dislike painting.",
+          "I enjoy painting."
+        ],
+        "answer": 2,
+        "explanation": "“Be into” means to be interested in something."
+      },
+      {
+        "stem": "Which is a polite invitation?",
+        "options": [
+          "Why not joined us?",
+          "Would you like to join us?",
+          "You join us now."
+        ],
+        "answer": 1,
+        "explanation": "“Would you like” offers a choice politely."
+      }
+    ],
+    "reflection": "What hobby have you kept or recently tried? Why?",
+    "roleplay": "Explain your hobby to a beginner, answer their questions, and invite them to a suitable first session."
+  },
+  {
+    "day": 5,
+    "title": "Food preferences",
+    "theme": "Likes, dislikes, and recommendations.",
+    "objective": "Express food preferences and make recommendations",
+    "focus": "Preferences with “prefer” and “would rather”",
+    "teaching": "Use “I prefer tea to coffee” for a general preference and “I’d rather have tea” for a choice now. State allergies or dietary needs clearly rather than as a casual dislike.",
+    "dialogue": [
+      "A: What should I try here?",
+      "B: The vegetable noodles are excellent. Do you like spicy food?",
+      "A: A little, but I can’t eat peanuts.",
+      "B: Let’s check the ingredients before ordering."
+    ],
+    "usage": "When recommending food, ask about restrictions first and describe taste, texture, or spice level.",
+    "phrases": [
+      "\"I'm a big fan of ...\"",
+      "\"I can't eat ...\"",
+      "\"What would you recommend?\"",
+      "\"I've never tried that before.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which sentence describes a general preference?",
+        "options": [
+          "I prefer tea than coffee.",
+          "I prefer tea to coffee.",
+          "I rather tea than coffee."
+        ],
+        "answer": 1,
+        "explanation": "Use “prefer X to Y.”"
+      },
+      {
+        "stem": "How should you clearly state a food restriction?",
+        "options": [
+          "I can't eat peanuts.",
+          "Peanuts are not my favorite.",
+          "Maybe peanuts no."
+        ],
+        "answer": 0,
+        "explanation": "Direct wording avoids misunderstandings."
+      }
+    ],
+    "reflection": "Describe a favorite meal with two taste words and one reason you enjoy it.",
+    "roleplay": "Recommend a dish to a visitor, check for dietary needs, and suggest an alternative."
+  },
+  {
+    "day": 6,
+    "title": "Ordering at a cafe",
+    "theme": "Polite requests and clarifying an order.",
+    "objective": "Order politely and confirm details",
+    "focus": "Could I / Can I for requests; without and with",
+    "teaching": "“Could I get a small coffee?” is polite. “Without milk” removes an ingredient; “with oat milk” specifies a replacement. Repeat the final order if anything is unclear.",
+    "dialogue": [
+      "A: Hi, could I get an iced latte with oat milk?",
+      "B: Of course. What size would you like?",
+      "A: Small, please. And a cheese sandwich for here.",
+      "B: One small iced latte with oat milk and one sandwich. Anything else?"
+    ],
+    "usage": "“For here” means you will eat or drink at the cafe; “to go” means you will take it away.",
+    "phrases": [
+      "\"Could I get ...?\"",
+      "\"For here or to go?\"",
+      "\"Can I have that without ...?\"",
+      "\"That's all, thank you.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which request is both clear and polite?",
+        "options": [
+          "Could I get a small tea, please?",
+          "Give tea.",
+          "I need tea you."
+        ],
+        "answer": 0,
+        "explanation": "“Could I” and “please” soften the request."
+      },
+      {
+        "stem": "What does “to go” mean?",
+        "options": [
+          "Eat it inside.",
+          "Pay later.",
+          "Take it away."
+        ],
+        "answer": 2,
+        "explanation": "“To go” describes takeaway service."
+      }
+    ],
+    "reflection": "Order two items, modify one, and specify for here or to go.",
+    "roleplay": "You are the customer; a partner is the server. The server asks about size and repeats the order for confirmation."
+  },
+  {
+    "day": 7,
+    "title": "Weekly review and small talk",
+    "theme": "Starting and keeping a light conversation going.",
+    "objective": "Build a short conversation from familiar topics",
+    "focus": "Follow-up questions and natural transitions",
+    "teaching": "Avoid a chain of unrelated questions. Respond to the other person first, then ask a question connected to their answer: “You mentioned hiking. Where do you usually go?”",
+    "dialogue": [
+      "A: How’s your week going?",
+      "B: Pretty well. I tried a new cafe yesterday.",
+      "A: That sounds nice. What did you order?",
+      "B: A chai latte. They also had excellent pastries.",
+      "A: Speaking of food, have you tried the bakery near the station?"
+    ],
+    "usage": "A natural conversation shares turns. Answer questions with a little detail so your partner has something to ask about.",
+    "phrases": [
+      "\"How's your week going?\"",
+      "\"That sounds interesting.\"",
+      "\"Tell me more about that.\"",
+      "\"Speaking of ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which response encourages more conversation?",
+        "options": [
+          "Okay.",
+          "Next subject.",
+          "That sounds interesting. How did it go?"
+        ],
+        "answer": 2,
+        "explanation": "It acknowledges and asks a connected question."
+      },
+      {
+        "stem": "Choose a connected follow-up to “I started running.”",
+        "options": [
+          "Do you know the time?",
+          "Where do you usually run?",
+          "What color is your phone?"
+        ],
+        "answer": 1,
+        "explanation": "Ask about the activity just mentioned."
+      }
+    ],
+    "reflection": "Which topic from Days 1–6 was easiest? Which needs more practice?",
+    "roleplay": "Hold a five-minute conversation that includes at least three earlier topics and four follow-up questions."
+  },
+  {
+    "day": 8,
+    "title": "Weather and seasons",
+    "theme": "Weather, clothing, and plans.",
+    "objective": "Describe weather and adjust plans",
+    "focus": "It is + adjective; conditional “if”",
+    "teaching": "Say “It’s sunny,” “It’s raining,” or “It’s been chilly lately.” For a possible future event, use “If it rains, we can go inside,” not “If it will rain.”",
+    "dialogue": [
+      "A: What’s the forecast for Saturday?",
+      "B: It looks cloudy, with a chance of rain.",
+      "A: Shall we still go to the park?",
+      "B: Let’s decide in the morning. If it rains, we can visit the museum."
+    ],
+    "usage": "Weather is useful small talk, but connect it to a preference or plan to make the exchange richer.",
+    "phrases": [
+      "\"It's been really ... lately.\"",
+      "\"What's the forecast?\"",
+      "\"I prefer ... weather.\"",
+      "\"If it rains, we can ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which sentence is natural?",
+        "options": [
+          "If raining, go can.",
+          "If it rains, we can go inside.",
+          "If it will rain, we can inside."
+        ],
+        "answer": 1,
+        "explanation": "Use present tense after “if” for this future possibility."
+      },
+      {
+        "stem": "Which phrase describes recent weather?",
+        "options": [
+          "It's been windy lately.",
+          "It windy has lately.",
+          "Wind lately be."
+        ],
+        "answer": 0,
+        "explanation": "“It’s been” connects past days to now."
+      }
+    ],
+    "reflection": "Describe today's weather and how it affects your plans.",
+    "roleplay": "Plan an outdoor outing with a backup indoor option."
+  },
+  {
+    "day": 9,
+    "title": "Neighborhood and city",
+    "theme": "Places, atmosphere, and local tips.",
+    "objective": "Describe your neighborhood to a newcomer",
+    "focus": "There is/are; distance expressions",
+    "teaching": "“There’s a library nearby” introduces a place. “It’s within walking distance” means you can reasonably walk there. Describe both atmosphere and practical features.",
+    "dialogue": [
+      "A: What’s your neighborhood like?",
+      "B: It’s lively but fairly quiet at night. There’s a park and a small market nearby.",
+      "A: Is it easy to get around?",
+      "B: Yes. The train station is within walking distance."
+    ],
+    "usage": "Local recommendations are more useful when you mention who the place is good for and when to go.",
+    "phrases": [
+      "\"I live near ...\"",
+      "\"It's within walking distance.\"",
+      "\"There's a great ... nearby.\"",
+      "\"What's your neighborhood like?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase says a place is nearby on foot?",
+        "options": [
+          "Within walking distance",
+          "Beyond walking ideas",
+          "Under distance foot"
+        ],
+        "answer": 0,
+        "explanation": "This is the conventional distance phrase."
+      },
+      {
+        "stem": "Choose the correct introduction to one place.",
+        "options": [
+          "There are a park nearby.",
+          "There have park nearby.",
+          "There's a park nearby."
+        ],
+        "answer": 2,
+        "explanation": "Use “there is” with a singular noun."
+      }
+    ],
+    "reflection": "What are two places a visitor should know in your area?",
+    "roleplay": "Introduce your neighborhood to someone moving in; recommend a place to eat and a way to travel."
+  },
+  {
+    "day": 10,
+    "title": "Directions and transportation",
+    "theme": "Getting around and checking understanding.",
+    "objective": "Give and check directions",
+    "focus": "Imperatives and sequencing",
+    "teaching": "Use short steps: “Go straight,” “Turn left at the lights,” “It’s next to the bank.” Check understanding with “So I turn right after the bridge?”",
+    "dialogue": [
+      "A: Excuse me, how do I get to the library?",
+      "B: Go straight for two blocks, then turn right at the traffic lights.",
+      "A: Is it on the left?",
+      "B: Yes, just past the pharmacy."
+    ],
+    "usage": "Landmarks such as stations and shops can be easier to follow than street names alone.",
+    "phrases": [
+      "\"How do I get to ...?\"",
+      "\"Go straight and turn left.\"",
+      "\"Is it far from here?\"",
+      "\"So I take the next right?\""
+    ],
+    "quiz": [
+      {
+        "stem": "What comes after “turn right at”?",
+        "options": [
+          "To traffic lights",
+          "Traffic lights on",
+          "The traffic lights"
+        ],
+        "answer": 2,
+        "explanation": "“At” introduces the point where you turn."
+      },
+      {
+        "stem": "Which sentence checks understanding?",
+        "options": [
+          "Where you say again all?",
+          "So I take the next left?",
+          "You not right?"
+        ],
+        "answer": 1,
+        "explanation": "Restating a step lets the speaker confirm it."
+      }
+    ],
+    "reflection": "Give directions from your home to a nearby shop using three steps.",
+    "roleplay": "A visitor asks for a station; give directions and have them repeat the route back."
+  },
+  {
+    "day": 11,
+    "title": "Shopping",
+    "theme": "Sizes, prices, and decisions.",
+    "objective": "Compare and choose an item in a store",
+    "focus": "Comparatives and polite requests",
+    "teaching": "Use “This one is cheaper than that one” and “It fits better.” Asking “Can I try it on?” is appropriate for clothing; “Can I see it?” works for other items.",
+    "dialogue": [
+      "A: Do you have this jacket in a medium?",
+      "B: Let me check. Here you are.",
+      "A: Thanks. Can I try it on?",
+      "B: Of course. The fitting room is over there.",
+      "A: This size fits better. How much is it?"
+    ],
+    "usage": "“I’ll think about it” politely leaves a decision open without promising to buy.",
+    "phrases": [
+      "\"Do you have this in another size?\"",
+      "\"How much is it?\"",
+      "\"Can I try it on?\"",
+      "\"I'll think about it.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which sentence compares two prices?",
+        "options": [
+          "This one more cheap from that.",
+          "This one is cheaper than that one.",
+          "This one cheaper that one."
+        ],
+        "answer": 1,
+        "explanation": "Use comparative “cheaper than.”"
+      },
+      {
+        "stem": "What do you say before trying on a jacket?",
+        "options": [
+          "Can I try it on?",
+          "Can I put it?",
+          "Could it try me?"
+        ],
+        "answer": 0,
+        "explanation": "“Try it on” is the clothing expression."
+      }
+    ],
+    "reflection": "Compare two things you might buy by price, comfort, and quality.",
+    "roleplay": "Role-play asking for another size, trying it on, and deciding whether to buy."
+  },
+  {
+    "day": 12,
+    "title": "Making plans",
+    "theme": "Availability and agreeing on details.",
+    "objective": "Agree on a specific plan",
+    "focus": "Invitations, alternatives, and confirmation",
+    "teaching": "A plan is complete when both people know the day, time, place, and activity. If a suggestion does not work, offer an alternative: “I can’t do Friday. How about Saturday?”",
+    "dialogue": [
+      "A: Are you free on Saturday afternoon?",
+      "B: I think so. What did you have in mind?",
+      "A: Coffee around three?",
+      "B: That works. Let’s meet outside the station at 2:45 and walk over."
+    ],
+    "usage": "“That works for me” accepts a suggestion. Repeat the final details to prevent confusion.",
+    "phrases": [
+      "\"Are you free on ...?\"",
+      "\"How about ...?\"",
+      "\"That works for me.\"",
+      "\"Let's meet at ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which reply proposes an alternative?",
+        "options": [
+          "Friday doesn't work. How about Sunday?",
+          "No.",
+          "Sunday maybe is no."
+        ],
+        "answer": 0,
+        "explanation": "A clear alternative keeps planning moving."
+      },
+      {
+        "stem": "What information makes a meeting plan complete?",
+        "options": [
+          "Only the day",
+          "Only the activity",
+          "Day, time, place, and activity"
+        ],
+        "answer": 2,
+        "explanation": "Both people need the practical details."
+      }
+    ],
+    "reflection": "Invite someone to an activity and offer a backup time.",
+    "roleplay": "Plan a weekend outing; your partner is unavailable at your first suggested time."
+  },
+  {
+    "day": 13,
+    "title": "Work or studies",
+    "theme": "Responsibilities, goals, and challenges.",
+    "objective": "Explain work or study in plain language",
+    "focus": "Present continuous for current projects",
+    "teaching": "“I work in design” describes your field; “I’m working on a new website” describes a current project. If a job title is unfamiliar, explain what you actually do.",
+    "dialogue": [
+      "A: What are you working on these days?",
+      "B: I’m studying biology and preparing a presentation about local rivers.",
+      "A: That sounds interesting. What’s the hardest part?",
+      "B: Finding reliable data and explaining it simply."
+    ],
+    "usage": "When someone asks about your work, adjust detail to their interest instead of listing every responsibility.",
+    "phrases": [
+      "\"I'm working on ...\"",
+      "\"My main responsibility is ...\"",
+      "\"What are you studying?\"",
+      "\"The hardest part is ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which describes a current project?",
+        "options": [
+          "I work on presentation yesterday.",
+          "I am work presentation.",
+          "I'm working on a presentation."
+        ],
+        "answer": 2,
+        "explanation": "Present continuous suits work in progress."
+      },
+      {
+        "stem": "Which question invites more detail?",
+        "options": [
+          "You done?",
+          "What's the hardest part?",
+          "Work yes?"
+        ],
+        "answer": 1,
+        "explanation": "It asks about the person's experience."
+      }
+    ],
+    "reflection": "Explain a task you do regularly and a project you are doing now.",
+    "roleplay": "Describe a project to someone outside your field; invite and answer a clarifying question."
+  },
+  {
+    "day": 14,
+    "title": "Weekly review and storytelling",
+    "theme": "Sequencing a recent experience.",
+    "objective": "Tell a short story in order",
+    "focus": "Past tense and sequencing markers",
+    "teaching": "Anchor the listener: when and where did it happen? Then use “At first,” “Then,” and “In the end.” End with why the event mattered, not only what happened.",
+    "dialogue": [
+      "A: Did anything interesting happen this week?",
+      "B: Yes. On Tuesday, I missed my usual bus. At first, I was frustrated.",
+      "A: What happened next?",
+      "B: I walked a different route, found a new bakery, and arrived on time after all."
+    ],
+    "usage": "Pause between events; listeners can ask “What happened next?” or “How did you feel?”",
+    "phrases": [
+      "\"At first ...\"",
+      "\"Then ...\"",
+      "\"After that ...\"",
+      "\"In the end ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase signals the conclusion?",
+        "options": [
+          "Before that",
+          "In the end",
+          "At first"
+        ],
+        "answer": 1,
+        "explanation": "“In the end” introduces the outcome."
+      },
+      {
+        "stem": "What should a clear story establish near the start?",
+        "options": [
+          "When and where it happened",
+          "Every small detail",
+          "The final opinion only"
+        ],
+        "answer": 0,
+        "explanation": "Context helps the listener follow events."
+      }
+    ],
+    "reflection": "Tell a story about a small surprise this week, including your reaction.",
+    "roleplay": "Tell a two-minute story while a partner asks two follow-up questions."
+  },
+  {
+    "day": 15,
+    "title": "Travel experiences",
+    "theme": "Destinations, memories, and preferences.",
+    "objective": "Discuss travel memories and wishes",
+    "focus": "Present perfect for experience; past simple for details",
+    "teaching": "“I’ve been to Kyoto” states a life experience. “I went there in 2024” gives a finished time. Use “I’d love to visit” for a future wish.",
+    "dialogue": [
+      "A: Have you ever been to Portugal?",
+      "B: Yes, I went to Porto two years ago.",
+      "A: What was the best part?",
+      "B: Walking beside the river in the evening. I’d love to go back."
+    ],
+    "usage": "Ask about experiences without assuming everyone has the time or money to travel; local outings count too.",
+    "phrases": [
+      "\"I've been to ...\"",
+      "\"I'd love to visit ...\"",
+      "\"The best part was ...\"",
+      "\"How was your trip?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which sentence mentions a finished time correctly?",
+        "options": [
+          "I went there last year.",
+          "I've been there last year.",
+          "I have gone last year."
+        ],
+        "answer": 0,
+        "explanation": "Use past simple with “last year.”"
+      },
+      {
+        "stem": "Which phrase expresses a wish?",
+        "options": [
+          "I went to visit yesterday.",
+          "I've visited in 2020.",
+          "I'd love to visit."
+        ],
+        "answer": 2,
+        "explanation": "“I’d love to” describes a desired future experience."
+      }
+    ],
+    "reflection": "Describe a trip or local outing using one sensory detail.",
+    "roleplay": "Ask a partner about a memorable place and explain where you would like to go next."
+  },
+  {
+    "day": 16,
+    "title": "Hotels and accommodation",
+    "theme": "Reservations, needs, and requests.",
+    "objective": "Handle hotel check-in and requests",
+    "focus": "Reservation language and polite requests",
+    "teaching": "“I have a reservation under [name]” lets staff find the booking. Ask specific questions about check-in, breakfast, Wi-Fi, or a room issue, one at a time.",
+    "dialogue": [
+      "A: Hello, I have a reservation under Lee.",
+      "B: Welcome. May I see your ID?",
+      "A: Of course. Is breakfast included?",
+      "B: Yes, from seven to ten.",
+      "A: Great. Could I get an extra towel, please?"
+    ],
+    "usage": "Check the answer you receive: “So breakfast starts at seven?” can confirm an important detail.",
+    "phrases": [
+      "\"I have a reservation under ...\"",
+      "\"What time is check-in?\"",
+      "\"Is breakfast included?\"",
+      "\"Could I get an extra ...?\""
+    ],
+    "quiz": [
+      {
+        "stem": "How do you identify a booking?",
+        "options": [
+          "I book as Lee thing.",
+          "My booking is under to Lee.",
+          "I have a reservation under Lee."
+        ],
+        "answer": 2,
+        "explanation": "“Under” introduces the reservation name."
+      },
+      {
+        "stem": "Which request is polite?",
+        "options": [
+          "I must towel extra.",
+          "Could I get an extra towel, please?",
+          "Give extra towel now."
+        ],
+        "answer": 1,
+        "explanation": "“Could I” frames a courteous request."
+      }
+    ],
+    "reflection": "Ask about check-in time and one included service.",
+    "roleplay": "Check into a hotel, confirm a booking, ask two questions, and request an extra item."
+  },
+  {
+    "day": 17,
+    "title": "Health and well-being",
+    "theme": "Everyday symptoms and self-care.",
+    "objective": "Describe a minor health issue and show care",
+    "focus": "Symptoms with “have” and duration with “since/for”",
+    "teaching": "Say “I have a headache,” “I feel tired,” and “I’ve had a headache since morning.” “Since” names a starting point; “for” names a length of time.",
+    "dialogue": [
+      "A: You look tired. Are you okay?",
+      "B: I have a headache. I’ve felt unwell since this morning.",
+      "A: I’m sorry to hear that. Do you need a break?",
+      "B: Yes, I think I’ll rest for a while."
+    ],
+    "usage": "Avoid making assumptions about someone’s health. Ask what support they would find helpful.",
+    "phrases": [
+      "\"I'm feeling a bit ...\"",
+      "\"I've had a headache since ...\"",
+      "\"I need to rest.\"",
+      "\"How are you feeling now?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase gives a starting point?",
+        "options": [
+          "At two hours",
+          "Since this morning",
+          "For this morning"
+        ],
+        "answer": 1,
+        "explanation": "“Since” goes with a starting time."
+      },
+      {
+        "stem": "Which response shows care?",
+        "options": [
+          "I'm sorry to hear that. Do you need a break?",
+          "You are wrong sick.",
+          "Forget it."
+        ],
+        "answer": 0,
+        "explanation": "Acknowledgment plus an offer is supportive."
+      }
+    ],
+    "reflection": "Describe a minor symptom and when it started, without giving medical advice.",
+    "roleplay": "A colleague feels unwell. Ask how they are, offer practical help, and respect their answer."
+  },
+  {
+    "day": 18,
+    "title": "Exercise and fitness",
+    "theme": "Activities, goals, and routines.",
+    "objective": "Talk about movement and realistic goals",
+    "focus": "Frequency, ability, and gradual change",
+    "teaching": "Use “I go for a walk three times a week” for frequency and “I’m trying to build up to 30 minutes” for a goal. “Let’s take it easy” suggests a comfortable pace.",
+    "dialogue": [
+      "A: How do you stay active?",
+      "B: I walk after lunch when I can. I’m trying to be more consistent.",
+      "A: Would you like to go together tomorrow?",
+      "B: Sure, but let’s take it easy. I’m just getting started."
+    ],
+    "usage": "Different bodies and schedules need different routines; frame your own preferences without judging others.",
+    "phrases": [
+      "\"I try to stay active by ...\"",
+      "\"How often do you ...?\"",
+      "\"I'm trying to improve my ...\"",
+      "\"Let's take it easy.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase describes frequency?",
+        "options": [
+          "Three times a week",
+          "At three weeks",
+          "In week three times"
+        ],
+        "answer": 0,
+        "explanation": "“Times a week” says how often."
+      },
+      {
+        "stem": "What does “take it easy” suggest?",
+        "options": [
+          "Go as fast as possible.",
+          "Stop talking.",
+          "Use a comfortable pace."
+        ],
+        "answer": 2,
+        "explanation": "It asks for less intensity."
+      }
+    ],
+    "reflection": "What physical activity feels enjoyable or manageable to you?",
+    "roleplay": "Compare two activities and invite a friend to try an easy session."
+  },
+  {
+    "day": 19,
+    "title": "Movies, books, and music",
+    "theme": "Describing tastes without spoilers.",
+    "objective": "Recommend entertainment without spoiling it",
+    "focus": "Descriptions and opinions with reasons",
+    "teaching": "Give a short premise, then why you liked it: “It’s about two friends on a trip. I liked the dialogue.” Ask about taste before recommending a genre.",
+    "dialogue": [
+      "A: Have you watched anything good lately?",
+      "B: I saw a mystery film called The Last Window. It's about a missing painting.",
+      "A: Was it scary?",
+      "B: Not really. It was clever and funny. I think you'd like it."
+    ],
+    "usage": "A recommendation works best when it matches the listener’s interests; avoid revealing the ending.",
+    "phrases": [
+      "\"It's about ...\"",
+      "\"I really enjoyed ...\"",
+      "\"I'm not usually into ...\"",
+      "\"What did you think of it?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which sentence gives a reason?",
+        "options": [
+          "I enjoyed it.",
+          "It enjoyed me because.",
+          "I enjoyed it because the characters felt real."
+        ],
+        "answer": 2,
+        "explanation": "“Because” links an opinion to evidence."
+      },
+      {
+        "stem": "Which question checks taste before recommending?",
+        "options": [
+          "When is the bus?",
+          "Do you like mysteries?",
+          "Have you seen my ticket?"
+        ],
+        "answer": 1,
+        "explanation": "Ask about genre preference."
+      }
+    ],
+    "reflection": "Recommend a book, film, song, or show with a premise and two reasons.",
+    "roleplay": "Ask about a partner's taste, then give a spoiler-free recommendation."
+  },
+  {
+    "day": 20,
+    "title": "Technology and apps",
+    "theme": "Everyday tools and troubleshooting.",
+    "objective": "Explain a tool and troubleshoot gently",
+    "focus": "Instructions with sequence; “have you tried”",
+    "teaching": "Give one step at a time: “First, open settings. Then, choose notifications.” “Have you tried restarting it?” is a gentle suggestion, not a guarantee.",
+    "dialogue": [
+      "A: I'm having trouble with this app. It won't save my notes.",
+      "B: Have you checked your connection?",
+      "A: Yes, that seems fine.",
+      "B: Let's try closing and reopening the app. If that doesn't work, we can check the storage settings."
+    ],
+    "usage": "When explaining an app, avoid unexplained technical terms and ask whether the person can see the same screen.",
+    "phrases": [
+      "\"I use it to ...\"",
+      "\"It's easy to set up.\"",
+      "\"Have you tried restarting it?\"",
+      "\"I'm having trouble with ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which is a gentle troubleshooting suggestion?",
+        "options": [
+          "It never works.",
+          "Have you tried restarting it?",
+          "Restart now, obviously."
+        ],
+        "answer": 1,
+        "explanation": "The question offers a possible step politely."
+      },
+      {
+        "stem": "Which phrase signals the next instruction?",
+        "options": [
+          "Then, choose settings.",
+          "Yesterday settings.",
+          "Maybe thing setting."
+        ],
+        "answer": 0,
+        "explanation": "“Then” sequences the action."
+      }
+    ],
+    "reflection": "Explain how to do one useful thing in an app, in three steps.",
+    "roleplay": "Help a friend solve a simple app problem; check after each step whether it worked."
+  },
+  {
+    "day": 21,
+    "title": "Weekly review and opinions",
+    "theme": "Giving reasons and acknowledging another view.",
+    "objective": "Give opinions and disagree politely",
+    "focus": "Opinion + reason + acknowledgment",
+    "teaching": "State your view (“I prefer printed books”), add a reason (“because I can focus better”), and acknowledge another perspective (“I see why you like ebooks”). Disagreement can stay friendly.",
+    "dialogue": [
+      "A: I think ebooks are more convenient.",
+      "B: I see your point. I prefer paper books because I spend less time on a screen.",
+      "A: That's fair. What kind of books do you read?",
+      "B: Mostly novels. What about you?"
+    ],
+    "usage": "Ask “What makes you say that?” to understand a view, not to challenge someone aggressively.",
+    "phrases": [
+      "\"In my opinion ...\"",
+      "\"I see your point.\"",
+      "\"I prefer ... because ...\"",
+      "\"What makes you say that?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which reply disagrees politely?",
+        "options": [
+          "I see your point, but I prefer paper books.",
+          "You are wrong.",
+          "No, bad idea always."
+        ],
+        "answer": 0,
+        "explanation": "Acknowledge before giving your view."
+      },
+      {
+        "stem": "What makes an opinion easier to discuss?",
+        "options": [
+          "A louder voice",
+          "A repeated claim",
+          "A clear reason and a question"
+        ],
+        "answer": 2,
+        "explanation": "Reasons and curiosity support conversation."
+      }
+    ],
+    "reflection": "Choose two apps or activities; say which you prefer and why.",
+    "roleplay": "Discuss two familiar choices; each person gives a reason and acknowledges the other view."
+  },
+  {
+    "day": 22,
+    "title": "Celebrations and traditions",
+    "theme": "Special occasions and cultural customs.",
+    "objective": "Explain a celebration or tradition",
+    "focus": "Customs with “usually” and “It's a tradition to”",
+    "teaching": "Describe what happens, when, and why it matters. “We usually cook together” is a custom; “It means a chance to reconnect” gives its significance.",
+    "dialogue": [
+      "A: Do you have a favorite celebration?",
+      "B: Yes. Every spring, my relatives cook together and share stories.",
+      "A: What does the day mean to you?",
+      "B: It’s a chance to spend time with people I don’t see often."
+    ],
+    "usage": "Ask open questions and allow others to describe their own traditions instead of assuming shared customs.",
+    "phrases": [
+      "\"We usually celebrate by ...\"",
+      "\"It's a tradition to ...\"",
+      "\"What does it mean to you?\"",
+      "\"That sounds like fun.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which question asks about meaning?",
+        "options": [
+          "What time is it?",
+          "Do I own it?",
+          "What does it mean to you?"
+        ],
+        "answer": 2,
+        "explanation": "It invites a personal explanation."
+      },
+      {
+        "stem": "Which phrase describes a recurring custom?",
+        "options": [
+          "We will used cook.",
+          "We usually cook together.",
+          "We cooking yesterday."
+        ],
+        "answer": 1,
+        "explanation": "“Usually” marks a repeated practice."
+      }
+    ],
+    "reflection": "Describe a tradition in your family, community, or friend group.",
+    "roleplay": "Explain a celebration to a visitor and ask about one important to them."
+  },
+  {
+    "day": 23,
+    "title": "Past experiences",
+    "theme": "Milestones, lessons, and changes.",
+    "objective": "Reflect on a past change",
+    "focus": "“Used to” for old habits; past events and present results",
+    "teaching": "“I used to be nervous speaking English” describes a past state that may have changed. “Since then, I’ve practiced weekly” connects a past turning point to now.",
+    "dialogue": [
+      "A: How did you learn to cook?",
+      "B: I used to rely on simple meals. Then a friend showed me a few recipes.",
+      "A: What changed after that?",
+      "B: Since then, I've cooked dinner for myself most evenings."
+    ],
+    "usage": "A good personal story names a challenge, one action you took, and what you learned.",
+    "phrases": [
+      "\"When I was younger ...\"",
+      "\"I used to ...\"",
+      "\"I learned that ...\"",
+      "\"Since then, I've ...\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which describes a past habit that changed?",
+        "options": [
+          "I am used avoid groups.",
+          "I used to avoid speaking in groups.",
+          "I use to avoided groups."
+        ],
+        "answer": 1,
+        "explanation": "“Used to” takes a base verb."
+      },
+      {
+        "stem": "Which phrase links a change to the present?",
+        "options": [
+          "Since then, I've practiced regularly.",
+          "Yesterday, I practicing.",
+          "Before then tomorrow."
+        ],
+        "answer": 0,
+        "explanation": "“Since then” marks continuing change."
+      }
+    ],
+    "reflection": "What is a skill you learned through practice? What was hard at first?",
+    "roleplay": "Tell a before-and-after story about learning a skill; answer what helped most."
+  },
+  {
+    "day": 24,
+    "title": "Future goals",
+    "theme": "Plans, hopes, and next steps.",
+    "objective": "Talk about goals without overpromising",
+    "focus": "Plans, hopes, and concrete next steps",
+    "teaching": "“I’m planning to…” suggests an intention; “I hope to…” states a wish. Make a goal actionable by naming a next step and a time: “This weekend, I’ll research a class.”",
+    "dialogue": [
+      "A: What are you looking forward to this year?",
+      "B: I’m hoping to speak more confidently.",
+      "A: How will you start?",
+      "B: I’ll practice for ten minutes after dinner three days a week."
+    ],
+    "usage": "A partner can help by asking about obstacles and encouragement, not by judging the ambition of the goal.",
+    "phrases": [
+      "\"I'm planning to ...\"",
+      "\"I hope to ...\"",
+      "\"My next step is ...\"",
+      "\"What are you looking forward to?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which is a concrete next step?",
+        "options": [
+          "I'll practice ten minutes on Monday.",
+          "I will be better someday.",
+          "Success will happen."
+        ],
+        "answer": 0,
+        "explanation": "It names an action and time."
+      },
+      {
+        "stem": "Which phrase states a hope?",
+        "options": [
+          "I hoped visit next now.",
+          "I am hope visiting.",
+          "I hope to visit my cousin."
+        ],
+        "answer": 2,
+        "explanation": "“Hope to” takes the base verb."
+      }
+    ],
+    "reflection": "Name one small goal and the first action you can take this week.",
+    "roleplay": "Ask a partner about a goal, help them make a next step specific, and share your own."
+  },
+  {
+    "day": 25,
+    "title": "Solving a problem",
+    "theme": "Explaining issues and proposing solutions.",
+    "objective": "Describe a problem and agree on a solution",
+    "focus": "Issue, impact, suggestion, agreement",
+    "teaching": "Keep the problem factual: “The package arrived late, so I missed the event.” Suggest an option and ask whether it works. Repeat the final agreement.",
+    "dialogue": [
+      "A: The meeting room is booked at our usual time.",
+      "B: Could we move the meeting to three?",
+      "A: I have another call then. How about four?",
+      "B: Four works. I'll update the invitation."
+    ],
+    "usage": "Distinguish the problem from blame; a calm description makes it easier to solve together.",
+    "phrases": [
+      "\"The issue is ...\"",
+      "\"Could we try ...?\"",
+      "\"That might work.\"",
+      "\"What else can we do?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase proposes a solution?",
+        "options": [
+          "This is your fault.",
+          "Nothing can happen.",
+          "Could we try a different time?"
+        ],
+        "answer": 2,
+        "explanation": "“Could we” offers a collaborative option."
+      },
+      {
+        "stem": "What should you do after agreeing on a solution?",
+        "options": [
+          "Repeat the complaint.",
+          "Confirm the action and time.",
+          "Change the subject."
+        ],
+        "answer": 1,
+        "explanation": "Shared details prevent a second problem."
+      }
+    ],
+    "reflection": "Describe a small scheduling problem and suggest two ways to fix it.",
+    "roleplay": "A delivery or meeting changes unexpectedly; explain the effect and agree on a practical fix."
+  },
+  {
+    "day": 26,
+    "title": "Complaints and customer service",
+    "theme": "Staying polite and stating what you need.",
+    "objective": "Make a polite service complaint",
+    "focus": "Specific issue, desired remedy, appreciation",
+    "teaching": "State what you expected and what happened: “I ordered the blue shirt, but received the green one.” Then ask clearly for an exchange, refund, or correction as appropriate.",
+    "dialogue": [
+      "A: Hi, I'm afraid there's a problem with my order. I received the wrong size.",
+      "B: I'm sorry about that. What size did you order?",
+      "A: Medium, but this is small. Could you help me exchange it?",
+      "B: Certainly. Let me check availability."
+    ],
+    "usage": "Politeness does not require accepting an unsolved problem; you can repeat the specific remedy you need.",
+    "phrases": [
+      "\"I'm afraid there's a problem with ...\"",
+      "\"I ordered ..., but received ...\"",
+      "\"Could you help me resolve this?\"",
+      "\"I appreciate your help.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which complaint gives useful detail?",
+        "options": [
+          "Everything wrong always.",
+          "I ordered a medium, but received a small.",
+          "It's bad."
+        ],
+        "answer": 1,
+        "explanation": "Specific facts make a fix possible."
+      },
+      {
+        "stem": "Which request asks for a remedy?",
+        "options": [
+          "Could you help me exchange it?",
+          "Why things?",
+          "I am angry now."
+        ],
+        "answer": 0,
+        "explanation": "It asks for the action you want."
+      }
+    ],
+    "reflection": "Write or say a clear complaint about a harmless wrong order.",
+    "roleplay": "Role-play customer and employee; describe the mismatch and agree on an exchange or correction."
+  },
+  {
+    "day": 27,
+    "title": "Giving advice",
+    "theme": "Suggestions, empathy, and choices.",
+    "objective": "Offer advice while respecting choice",
+    "focus": "Could, might, and “If I were you”",
+    "teaching": "“You could try shorter sessions” leaves room for choice. “If I were you, I’d…” presents your perspective, not an order. Ask what the person has already tried.",
+    "dialogue": [
+      "A: I want to speak more English, but I'm busy.",
+      "B: That sounds frustrating. Have you considered five-minute voice notes?",
+      "A: I could do that on my commute.",
+      "B: It might be worth trying for a week. See how it feels."
+    ],
+    "usage": "Good advice begins by listening and ends by leaving the decision with the other person.",
+    "phrases": [
+      "\"You could ...\"",
+      "\"Have you considered ...?\"",
+      "\"If I were you, I'd ...\"",
+      "\"It's up to you.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which suggestion leaves room for choice?",
+        "options": [
+          "You could try a shorter session.",
+          "You must do this.",
+          "Never do that again."
+        ],
+        "answer": 0,
+        "explanation": "“Could” offers an option."
+      },
+      {
+        "stem": "Which question helps before advising?",
+        "options": [
+          "Why are you always wrong?",
+          "Do you obey me?",
+          "What have you tried so far?"
+        ],
+        "answer": 2,
+        "explanation": "Learning context makes advice relevant."
+      }
+    ],
+    "reflection": "A friend struggles to make time for practice. Suggest two small options.",
+    "roleplay": "Listen to a partner's problem, ask one question, and offer gentle advice without insisting."
+  },
+  {
+    "day": 28,
+    "title": "Weekly review and longer conversation",
+    "theme": "Switching topics smoothly and repairing misunderstandings.",
+    "objective": "Sustain a longer chat and repair misunderstandings",
+    "focus": "Transitions and clarification strategies",
+    "teaching": "Use “That reminds me…” to connect topics and “By the way…” to introduce a new one. When you do not understand, ask “What do you mean by…?”; when they do not, say “Let me put it another way.”",
+    "dialogue": [
+      "A: I tried a new restaurant yesterday.",
+      "B: That reminds me: did you ever visit the food market?",
+      "A: Not yet. Is it near the station?",
+      "B: Yes, two streets away.",
+      "A: Sorry, do you mean the north or south station?",
+      "B: The south one. Let me put it another way: it's next to the museum."
+    ],
+    "usage": "Clarification is normal, even for fluent speakers. Restating an idea is a valuable conversation skill.",
+    "phrases": [
+      "\"That reminds me ...\"",
+      "\"By the way ...\"",
+      "\"What do you mean by ...?\"",
+      "\"Let me put it another way.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase requests clarification?",
+        "options": [
+          "Yes everything.",
+          "Maybe I agree.",
+          "What do you mean by “nearby”?"
+        ],
+        "answer": 2,
+        "explanation": "It asks for a clearer meaning."
+      },
+      {
+        "stem": "Which phrase smoothly changes subject?",
+        "options": [
+          "Stop this topic.",
+          "By the way, have you seen the new cafe?",
+          "New subject immediately."
+        ],
+        "answer": 1,
+        "explanation": "“By the way” introduces a related or new thought."
+      }
+    ],
+    "reflection": "Which phrase helps you recover when someone is confused?",
+    "roleplay": "Talk for ten minutes across three topics, use a transition, and clarify at least one detail."
+  },
+  {
+    "day": 29,
+    "title": "Current events and community",
+    "theme": "Discussing a local event without assuming agreement.",
+    "objective": "Discuss a local event with curiosity",
+    "focus": "Source, fact, uncertainty, and opinion",
+    "teaching": "“I heard about the new community garden” states what you encountered. “From what I understand…” signals a tentative summary. Distinguish what is confirmed from what you think about it.",
+    "dialogue": [
+      "A: I heard the library is hosting evening language exchanges.",
+      "B: That sounds useful. Do you know when they start?",
+      "A: I'm not sure. From what I understand, the first one is next month.",
+      "B: Let's check the library's announcement before making plans."
+    ],
+    "usage": "If you do not know enough, saying “I haven't looked into it enough yet” is more credible than guessing.",
+    "phrases": [
+      "\"I heard about ...\"",
+      "\"From what I understand ...\"",
+      "\"How do you feel about it?\"",
+      "\"I haven't looked into it enough yet.\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which phrase signals uncertainty honestly?",
+        "options": [
+          "Everybody knows the date.",
+          "From what I understand, it starts next month.",
+          "It definitely starts tomorrow, I guess."
+        ],
+        "answer": 1,
+        "explanation": "It frames a tentative account."
+      },
+      {
+        "stem": "What is the best next step before sharing an event date?",
+        "options": [
+          "Check the organizer's announcement.",
+          "Guess from memory.",
+          "Repeat a rumor."
+        ],
+        "answer": 0,
+        "explanation": "The organizer can confirm the details."
+      }
+    ],
+    "reflection": "Describe a community event and separate one fact from one opinion.",
+    "roleplay": "Discuss a local event; ask for a source, express interest, and acknowledge uncertainty."
+  },
+  {
+    "day": 30,
+    "title": "Final conversation and reflection",
+    "theme": "Combining stories, opinions, questions, and plans.",
+    "objective": "Combine skills and choose your next practice cycle",
+    "focus": "Review, self-correction, and next steps",
+    "teaching": "Use familiar phrases flexibly rather than memorizing a perfect speech. In a long conversation, vary questions, give reasons, tell one story, and repair any misunderstanding.",
+    "dialogue": [
+      "A: What did you enjoy most about this month?",
+      "B: I feel more comfortable asking follow-up questions.",
+      "A: What would you like to improve next?",
+      "B: I still pause when telling stories, so I'll practice one short story every week."
+    ],
+    "usage": "Judge progress by what you can communicate, not only by grammatical accuracy. Note one strength and one next step.",
+    "phrases": [
+      "\"One thing I've learned is ...\"",
+      "\"I feel more confident about ...\"",
+      "\"I'd like to keep improving ...\"",
+      "\"What should we talk about next?\""
+    ],
+    "quiz": [
+      {
+        "stem": "Which goal is specific and repeatable?",
+        "options": [
+          "Tell one short story every week.",
+          "Speak perfectly forever.",
+          "Never pause again."
+        ],
+        "answer": 0,
+        "explanation": "A weekly action is practical."
+      },
+      {
+        "stem": "Which response keeps a conversation moving?",
+        "options": [
+          "Yes.",
+          "Finished.",
+          "That reminds me of a trip I took. What about you?"
+        ],
+        "answer": 2,
+        "explanation": "It adds detail and returns a question."
+      }
+    ],
+    "reflection": "Which three phrases now feel natural? What two skills need attention?",
+    "roleplay": "Hold a 15-minute conversation covering four topics. Record it, review it, and set two goals for next month."
+  }
+]

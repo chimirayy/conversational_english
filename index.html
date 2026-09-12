@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#102744">
+  <meta name="description" content="A 30-day conversational English coursebook with daily practice, quizzes, speaking tasks, and progress tracking.">
+  <title>30 Days of Conversation</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#lesson">Skip to lesson</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Course navigation">
+      <div class="brand"><span class="brand-mark" aria-hidden="true">“</span><div><strong>30 Days of<br>Conversation</strong><small>English practice course</small></div></div>
+      <div class="sidebar-progress"><div class="progress-head"><span>Course progress</span><strong id="progress-count">0 / 30</strong></div><div class="progress-track" role="progressbar" aria-label="Course completion" aria-valuemin="0" aria-valuemax="30" aria-valuenow="0" id="course-progress"><span id="progress-fill"></span></div></div>
+      <div class="date-box"><label for="start-date">Your Day 1 date</label><input id="start-date" type="date"><p>Choose a start date to see which lesson falls on each day. You can still open any lesson.</p></div>
+      <nav aria-label="Days"><div class="nav-heading">YOUR 30 LESSONS</div><div id="day-list"></div></nav>
+      <a class="book-link" href="COURSEBOOK.md" download>↓ Download full coursebook (.md)</a>
+    </aside>
+    <main id="lesson" tabindex="-1">
+      <header class="topbar"><div><span class="eyebrow">SPEAK A LITTLE EVERY DAY</span><h1>Conversation practice</h1></div><div class="top-actions"><span id="today-label" class="today-label"></span><button id="menu-toggle" class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu">Choose day</button></div></header>
+      <div id="mobile-menu" class="mobile-menu" hidden></div>
+      <div id="loading">Loading your lessons…</div>
+      <div id="content" hidden>
+        <section class="lesson-intro"><div class="lesson-meta"><span id="day-kicker"></span><span id="scheduled-date"></span></div><h2 id="lesson-title"></h2><p id="lesson-theme"></p><div class="goal"><span aria-hidden="true">◎</span><span id="lesson-objective"></span></div></section>
+        <div class="lesson-layout"><div class="lesson-main">
+          <section class="card routine"><div class="section-title"><div><span class="step-label">DAILY ROUTINE · ABOUT 20–25 MINUTES</span><h3>Today's practice</h3></div><span class="pill" id="day-progress">0 of 4 steps</span></div><div id="routine-steps" class="steps"></div></section>
+          <section class="card" id="learn-card"><div class="section-title"><div><span class="step-label">01 · LEARN</span><h3>Build the conversation</h3></div></div><p class="focus" id="focus"></p><p id="teaching"></p><h4>Useful phrases</h4><ul id="phrases" class="phrase-list"></ul><h4>Model conversation</h4><div id="dialogue" class="dialogue"></div><div class="note"><strong>Conversation note</strong><p id="usage"></p></div><button class="task-button" data-task="learn">Mark learning done</button></section>
+          <section class="card" id="quiz-card"><div class="section-title"><div><span class="step-label">02 · CHECK</span><h3>Practice questions</h3></div></div><p>Choose an answer for each question, then check your work. You can try again.</p><form id="quiz-form"><div id="quiz-list"></div><button type="submit" class="primary-button">Check answers</button><p id="quiz-result" role="status" aria-live="polite"></p></form></section>
+          <section class="card" id="speak-card"><div class="section-title"><div><span class="step-label">03 · SPEAK</span><h3>Put it into words</h3></div></div><div class="prompt-block"><strong>Open response</strong><p id="reflection-prompt"></p></div><div class="prompt-block"><strong>Role-play</strong><p id="roleplay-prompt"></p></div><div class="timer"><span id="timer-display" aria-live="off">02:00</span><span>Speaking timer</span><button id="timer-button" type="button" class="secondary-button">Start 2-minute timer</button><button id="timer-reset" type="button" class="text-button">Reset</button></div><label class="notes-label" for="notes">Your notes or new phrases</label><textarea id="notes" rows="4" placeholder="Write a phrase you used, a question to try, or something to improve…"></textarea><small class="save-hint">Saved in this browser as you type.</small><button class="task-button" data-task="speak">Mark speaking done</button></section>
+          <div class="lesson-footer"><button id="prev-day" class="secondary-button">← Previous day</button><button id="next-day" class="primary-button">Next day →</button></div>
+        </div><aside class="lesson-side"><div class="side-card"><span class="step-label">YOUR ROUTE TODAY</span><h3>Four small steps</h3><ol><li><strong>Recall</strong><span>Say yesterday’s phrases aloud.</span></li><li><strong>Learn</strong><span>Read the lesson and vary the examples.</span></li><li><strong>Check</strong><span>Answer both questions correctly.</span></li><li><strong>Speak</strong><span>Try the role-play and reflect.</span></li></ol><p>On review days, allow 10 extra minutes for a longer conversation.</p></div><div class="side-card privacy"><strong>Your pace, your practice</strong><p>Days stay open in any order. Progress and notes stay on this device and browser.</p></div></aside></div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
