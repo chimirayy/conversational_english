@@ -1,5 +1,6 @@
 from pathlib import Path
-import re,json,html
+import re,json
+from extra_content import enrich
 root=Path(__file__).parent
 plan=(root/'ORIGINAL_30_DAY_PLAN.txt').read_text()
 sections=re.split(r'(?=DAY \d+ - )',plan)[1:]
@@ -52,17 +53,24 @@ for i,(section,line) in enumerate(zip(sections,raw),1):
         shift=(i+j)%3
         q['options']=q['options'][shift:]+q['options'][:shift]
         q['answer']=(q['answer']-shift)%3
-    lesson=dict(day=i,title=title,theme=theme,objective=fields[0],focus=fields[1],teaching=fields[2],dialogue=[v.strip() for v in fields[3].split(' / ')],usage=fields[4],phrases=phrases,quiz=qs,reflection=fields[7],roleplay=fields[8])
+    extra=enrich(i)
+    lesson=dict(day=i,title=title,theme=theme,objective=fields[0],focus=fields[1],teaching=fields[2],dialogue=[v.strip() for v in fields[3].split(' / ')],usage=fields[4],phrases=phrases,phraseFamilies=extra['phraseFamilies'],extraDialogues=extra['extraDialogues'],quiz=qs+extra['extraQuiz'],reflection=fields[7],roleplay=fields[8],discussion=extra['discussion'])
     lessons.append(lesson)
 (root/'lessons.json').write_text(json.dumps(lessons,ensure_ascii=False,indent=2)+'\n')
-book=['# 30-Day Conversational English Coursebook','', 'A self-paced month of daily spoken English practice. Each day is designed for about 20–25 minutes: 3 minutes to review, 5 minutes to read and repeat, 5 minutes for questions, 5–10 minutes for a role-play, and 2 minutes to reflect. Study with a partner or speak both parts aloud. On review days, allow 10 extra minutes.','','## Daily routine','','1. **Recall:** Say yesterday’s useful phrases without looking. On Day 1, simply introduce yourself.','2. **Learn:** Read the theme, focus, teaching note, phrases, and model dialogue. Repeat each line aloud twice, changing one detail to fit your life.','3. **Check:** Answer the two multiple-choice questions before reading the answer key. Say the correct answer in a full sentence.','4. **Speak and reflect:** Do the role-play, answer the open prompt for at least two minutes, and record one phrase to use again tomorrow.','','You can repeat any day. There is no requirement to complete lessons on consecutive calendar days. The website keeps an optional start date and saves progress in this browser.','','---','']
+book=['# 30-Day Conversational English Coursebook','', 'A self-paced month of daily spoken English practice. Each day is designed for about 25–35 minutes: 3 minutes to recall, 10 minutes to learn from three conversations and phrase alternatives, 5 minutes for questions, 10–15 minutes for speaking, and 2 minutes to reflect. Study with a partner or speak both parts aloud. On review days, allow 10 extra minutes.','','## Daily routine','','1. **Recall:** Say yesterday’s useful phrases without looking. On Day 1, simply introduce yourself.','2. **Learn:** Read the theme, focus, teaching note, phrase families, and three model conversations. Repeat each exchange aloud twice, changing one detail to fit your life.','3. **Check:** Answer the four multiple-choice questions before reading the answer key. Say the correct answer in a full sentence.','4. **Speak and reflect:** Do the role-play, answer at least two open prompts, and record one phrase to use again tomorrow.','','You can repeat any day. There is no requirement to complete lessons on consecutive calendar days. The website keeps an optional start date and saves progress in this browser.','','---','']
 for l in lessons:
     book += [f"## Day {l['day']}: {l['title']}",'',f"**Theme:** {l['theme']}",f"**Goal:** {l['objective']}",f"**Language focus:** {l['focus']}",'',f"### Learn",'',l['teaching'],'',f"**Useful phrases**",'']
     book += [f"- {p}" for p in l['phrases']]
-    book += ['', '**Model conversation**','']+[f"{d}" for d in l['dialogue']]+['',f"**Conversation note:** {l['usage']}",'','### Practice questions','']
+    book += ['', '**Ways to say it: choose a phrase that fits your situation**','']
+    for family in l['phraseFamilies']:
+        book += [f"**{family['label']}**",'']+[f"- {p}" for p in family['options']]+['']
+    book += ['**Model conversation 1: Everyday example**','']+[f"{d}" for d in l['dialogue']]+['']
+    for j,scene in enumerate(l['extraDialogues'],2):
+        book += [f"**Model conversation {j}: {scene['label']}**",'']+scene['lines']+['']
+    book += [f"**Conversation note:** {l['usage']}",'','### Practice questions','']
     for n,q in enumerate(l['quiz'],1):
         book += [f"{n}. {q['stem']}"]+[f"   - {chr(65+j)}. {o}" for j,o in enumerate(q['options'])]+['']
-    book += [f"3. Open response: {l['reflection']}",'',f"4. Role-play: {l['roleplay']}",'','**Answer key**','']
+    book += [f"5. Open response: {l['reflection']}",'',f"6. {l['discussion'][0]}",'',f"7. {l['discussion'][1]}",'',f"8. Role-play: {l['roleplay']}",'','**Answer key**','']
     for n,q in enumerate(l['quiz'],1): book += [f"{n}. {chr(65+q['answer'])}. {q['options'][q['answer']]} — {q['explanation']}"]
     book += ['', '**After speaking:** What did you express clearly? Which phrase will you reuse tomorrow?','','---','']
 (root/'COURSEBOOK.md').write_text('\n'.join(book)+'\n')

@@ -19,6 +19,52 @@
       "\"It's nice to meet you.\"",
       "\"What do you do?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Opening a chat",
+        "options": [
+          "Hi, I’m …",
+          "Hello, my name’s …",
+          "I don’t think we’ve met—I’m …"
+        ]
+      },
+      {
+        "label": "Asking about someone",
+        "options": [
+          "Where are you based?",
+          "What brings you here?",
+          "How do you know the host?"
+        ]
+      },
+      {
+        "label": "Keeping it going",
+        "options": [
+          "How about you?",
+          "What’s that like?",
+          "How did you get started?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "At a workshop",
+        "lines": [
+          "A: Hi, I’m Lina. Is this seat taken?",
+          "B: No, go ahead. I’m Theo.",
+          "A: Thanks. Have you been to one of these workshops before?",
+          "B: Once. The last one was really useful."
+        ]
+      },
+      {
+        "label": "At a neighbor’s gathering",
+        "lines": [
+          "A: I don’t think we’ve met. I’m Noor, from upstairs.",
+          "B: I’m Alex. Good to meet you.",
+          "A: Likewise. How long have you lived here?",
+          "B: About six months. I’m still learning the area."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which question asks about a person's current home?",
@@ -39,10 +85,34 @@
         ],
         "answer": 1,
         "explanation": "Return the greeting with “too.”"
+      },
+      {
+        "stem": "What is a natural question at a workshop?",
+        "options": [
+          "Have you been to one of these before?",
+          "Where is your passport?",
+          "Why are you sitting here?"
+        ],
+        "answer": 0,
+        "explanation": "It connects to the shared situation."
+      },
+      {
+        "stem": "Which response adds detail that invites another question?",
+        "options": [
+          "Fine.",
+          "Yes.",
+          "I work at a small bookstore downtown."
+        ],
+        "answer": 2,
+        "explanation": "A specific detail gives your partner something to ask about."
       }
     ],
     "reflection": "How would you introduce yourself at a community event? Ask two different follow-up questions.",
-    "roleplay": "You meet a new classmate. Exchange names, hometowns, and what you do; each person asks a follow-up."
+    "roleplay": "You meet a new classmate. Exchange names, hometowns, and what you do; each person asks a follow-up.",
+    "discussion": [
+      "What might you say if you forget a person's name? Ask politely.",
+      "How could you introduce two people who have not met?"
+    ]
   },
   {
     "day": 2,
@@ -64,6 +134,52 @@
       "\"What's your family like?\"",
       "\"We've known each other for years.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Introducing someone",
+        "options": [
+          "This is my cousin …",
+          "I’d like you to meet my friend …",
+          "We met through …"
+        ]
+      },
+      {
+        "label": "Describing closeness",
+        "options": [
+          "We’re close.",
+          "We keep in touch.",
+          "We’ve known each other since school."
+        ]
+      },
+      {
+        "label": "Describing character",
+        "options": [
+          "She’s easy to talk to.",
+          "He’s very dependable.",
+          "They make people feel welcome."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Introducing a friend",
+        "lines": [
+          "A: This is Priya, my friend from college.",
+          "B: Nice to meet you, Priya. How do you two know each other?",
+          "A: We studied together and still meet every month.",
+          "B: That’s lovely. What do you usually do together?"
+        ]
+      },
+      {
+        "label": "Talking about a relative",
+        "lines": [
+          "A: What’s your grandfather like?",
+          "B: He’s patient and funny. He always teaches me something new.",
+          "A: What has he taught you recently?",
+          "B: A few recipes from his childhood."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase means “have a good relationship”?",
@@ -84,10 +200,34 @@
         ],
         "answer": 0,
         "explanation": "Specific actions make descriptions clearer."
+      },
+      {
+        "stem": "Which phrase says a relationship continues despite distance?",
+        "options": [
+          "We touch again.",
+          "We keep in touch.",
+          "We keep away."
+        ],
+        "answer": 1,
+        "explanation": "“Keep in touch” means stay in contact."
+      },
+      {
+        "stem": "Which question invites a concrete story?",
+        "options": [
+          "What did you do together last time?",
+          "Are they nice?",
+          "Is your family family?"
+        ],
+        "answer": 0,
+        "explanation": "It asks about an event, not just a label."
       }
     ],
     "reflection": "Who is important to you? Describe their personality and one example.",
-    "roleplay": "Introduce someone important to you to a new friend; describe how you met and what you enjoy together."
+    "roleplay": "Introduce someone important to you to a new friend; describe how you met and what you enjoy together.",
+    "discussion": [
+      "How do you stay connected with a friend who lives far away?",
+      "Who helped you through a difficult time, and how?"
+    ]
   },
   {
     "day": 3,
@@ -109,6 +249,52 @@
       "\"What time do you normally ...?\"",
       "\"It depends on the day.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Starting a routine",
+        "options": [
+          "My day starts with …",
+          "First thing in the morning, I …",
+          "I usually begin by …"
+        ]
+      },
+      {
+        "label": "Talking about frequency",
+        "options": [
+          "Most days, I …",
+          "Every now and then, I …",
+          "I hardly ever …"
+        ]
+      },
+      {
+        "label": "Explaining a change",
+        "options": [
+          "On weekends, I … instead.",
+          "When I’m busy, I …",
+          "It depends on my schedule."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Before work",
+        "lines": [
+          "A: Are you an early bird?",
+          "B: Usually. I get up at six and read for ten minutes.",
+          "A: Do you always have time for that?",
+          "B: Not when I have an early meeting. Then I read at night."
+        ]
+      },
+      {
+        "label": "Comparing weekends",
+        "lines": [
+          "A: What do your Sundays look like?",
+          "B: I normally cook a big lunch and call my parents.",
+          "A: That sounds relaxing. Is Saturday similar?",
+          "B: Not at all. Saturday is usually full of errands."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which is natural?",
@@ -129,10 +315,34 @@
         ],
         "answer": 2,
         "explanation": "“On weekdays” names the recurring days."
+      },
+      {
+        "stem": "What does “hardly ever” mean?",
+        "options": [
+          "Quite often",
+          "Almost never",
+          "Every day"
+        ],
+        "answer": 1,
+        "explanation": "It describes a very rare habit."
+      },
+      {
+        "stem": "Which follow-up explores a change in routine?",
+        "options": [
+          "What do you do when you're busy?",
+          "Is that a day?",
+          "Are you time?"
+        ],
+        "answer": 0,
+        "explanation": "It asks how circumstances affect the habit."
       }
     ],
     "reflection": "Walk through your morning in order. What changes on weekends?",
-    "roleplay": "Ask a partner about their weekday and weekend routines; find two similarities and one difference."
+    "roleplay": "Ask a partner about their weekday and weekend routines; find two similarities and one difference.",
+    "discussion": [
+      "Which part of your routine would you like to change?",
+      "Tell someone about a routine that helps you feel prepared."
+    ]
   },
   {
     "day": 4,
@@ -154,6 +364,52 @@
       "\"I do it whenever I can.\"",
       "\"Would you like to join me?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Stating an interest",
+        "options": [
+          "I’m really into …",
+          "I enjoy … in my free time.",
+          "I’ve recently taken up …"
+        ]
+      },
+      {
+        "label": "Asking about an interest",
+        "options": [
+          "What do you like about it?",
+          "How often do you do it?",
+          "How did you get into it?"
+        ]
+      },
+      {
+        "label": "Inviting someone",
+        "options": [
+          "Want to give it a try?",
+          "Would you be interested in joining?",
+          "Come along if you’d like."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A new hobby",
+        "lines": [
+          "A: I’ve recently taken up pottery.",
+          "B: That sounds fun. What do you like about it?",
+          "A: I like working with my hands. It helps me slow down.",
+          "B: Do you go to a class or practice at home?"
+        ]
+      },
+      {
+        "label": "An invitation",
+        "lines": [
+          "A: A few of us are playing badminton on Sunday. Want to come along?",
+          "B: I haven’t played in years. Is it okay if I’m a beginner?",
+          "A: Absolutely. We’re just playing for fun.",
+          "B: In that case, I’d love to."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "What does “I’m into painting” mean?",
@@ -174,10 +430,34 @@
         ],
         "answer": 1,
         "explanation": "“Would you like” offers a choice politely."
+      },
+      {
+        "stem": "Which phrase suggests a new hobby?",
+        "options": [
+          "I took in pottery later.",
+          "I've recently taken up pottery.",
+          "I have pottery taken down."
+        ],
+        "answer": 1,
+        "explanation": "“Take up” means begin an activity."
+      },
+      {
+        "stem": "Which reply makes a beginner feel welcome?",
+        "options": [
+          "You must be excellent.",
+          "Beginners cannot come.",
+          "We're just playing for fun."
+        ],
+        "answer": 2,
+        "explanation": "It removes pressure."
       }
     ],
     "reflection": "What hobby have you kept or recently tried? Why?",
-    "roleplay": "Explain your hobby to a beginner, answer their questions, and invite them to a suitable first session."
+    "roleplay": "Explain your hobby to a beginner, answer their questions, and invite them to a suitable first session.",
+    "discussion": [
+      "What hobby would you try if equipment and cost were no issue?",
+      "How would you decline an invitation kindly and suggest another time?"
+    ]
   },
   {
     "day": 5,
@@ -199,6 +479,52 @@
       "\"What would you recommend?\"",
       "\"I've never tried that before.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Expressing likes",
+        "options": [
+          "I love the flavor of …",
+          "I’m partial to …",
+          "I could eat … every week."
+        ]
+      },
+      {
+        "label": "Stating a preference",
+        "options": [
+          "I’d go for …",
+          "I prefer … to …",
+          "I’m in the mood for …"
+        ]
+      },
+      {
+        "label": "Checking needs",
+        "options": [
+          "Does it contain …?",
+          "Is there a vegetarian option?",
+          "How spicy is it?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Choosing lunch",
+        "lines": [
+          "A: What are you in the mood for?",
+          "B: Something light. Maybe soup and bread.",
+          "A: The tomato soup is good, but it has cream.",
+          "B: Thanks for telling me. I’ll choose the lentil soup instead."
+        ]
+      },
+      {
+        "label": "Recommending a dish",
+        "lines": [
+          "A: What’s a good local dish to try?",
+          "B: The rice cakes are popular. They’re savory and a little crisp.",
+          "A: Are they spicy?",
+          "B: Not usually, but ask about the sauce."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which sentence describes a general preference?",
@@ -219,10 +545,34 @@
         ],
         "answer": 0,
         "explanation": "Direct wording avoids misunderstandings."
+      },
+      {
+        "stem": "Which question checks an ingredient?",
+        "options": [
+          "Are you sesame?",
+          "Does it contain sesame?",
+          "Is it sesame feeling?"
+        ],
+        "answer": 1,
+        "explanation": "“Contain” asks what is in a dish."
+      },
+      {
+        "stem": "Which phrase describes a choice right now?",
+        "options": [
+          "I mood in soup.",
+          "I'm in the mood for soup.",
+          "I have mood soup every day."
+        ],
+        "answer": 1,
+        "explanation": "“In the mood for” expresses a current desire."
       }
     ],
     "reflection": "Describe a favorite meal with two taste words and one reason you enjoy it.",
-    "roleplay": "Recommend a dish to a visitor, check for dietary needs, and suggest an alternative."
+    "roleplay": "Recommend a dish to a visitor, check for dietary needs, and suggest an alternative.",
+    "discussion": [
+      "What food reminds you of home, and why?",
+      "Describe a dish so someone unfamiliar with it can imagine the taste."
+    ]
   },
   {
     "day": 6,
@@ -244,6 +594,52 @@
       "\"Can I have that without ...?\"",
       "\"That's all, thank you.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Making an order",
+        "options": [
+          "I’ll have …, please.",
+          "May I have …?",
+          "Could I order …?"
+        ]
+      },
+      {
+        "label": "Changing an item",
+        "options": [
+          "Could you leave out …?",
+          "Could I swap … for …?",
+          "Can I have it on the side?"
+        ]
+      },
+      {
+        "label": "Checking the bill",
+        "options": [
+          "How much is that altogether?",
+          "Can I pay by card?",
+          "Could I have the receipt?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A busy morning",
+        "lines": [
+          "A: Morning. Could I order a cappuccino and a bagel?",
+          "B: Sure. Would you like the bagel toasted?",
+          "A: Yes, please, with the cream cheese on the side.",
+          "B: Got it. That’ll be seven dollars."
+        ]
+      },
+      {
+        "label": "Correcting an order",
+        "lines": [
+          "A: Sorry, I asked for the iced version.",
+          "B: My apologies. I’ll make a new one right away.",
+          "A: Thanks. No rush.",
+          "B: I appreciate your patience."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which request is both clear and polite?",
@@ -264,10 +660,34 @@
         ],
         "answer": 2,
         "explanation": "“To go” describes takeaway service."
+      },
+      {
+        "stem": "What does “on the side” mean?",
+        "options": [
+          "Made bigger",
+          "Served separately",
+          "Removed completely"
+        ],
+        "answer": 1,
+        "explanation": "It asks for a separate serving."
+      },
+      {
+        "stem": "Which phrase politely corrects a drink?",
+        "options": [
+          "Sorry, I asked for the iced version.",
+          "You never listen.",
+          "Ice me now."
+        ],
+        "answer": 0,
+        "explanation": "State the requested item calmly."
       }
     ],
     "reflection": "Order two items, modify one, and specify for here or to go.",
-    "roleplay": "You are the customer; a partner is the server. The server asks about size and repeats the order for confirmation."
+    "roleplay": "You are the customer; a partner is the server. The server asks about size and repeats the order for confirmation.",
+    "discussion": [
+      "How would you order if an item on the menu is unavailable?",
+      "How can you ask for a receipt and thank the server?"
+    ]
   },
   {
     "day": 7,
@@ -290,6 +710,52 @@
       "\"Tell me more about that.\"",
       "\"Speaking of ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Showing interest",
+        "options": [
+          "Really? Tell me more.",
+          "That sounds great.",
+          "What was that like?"
+        ]
+      },
+      {
+        "label": "Connecting ideas",
+        "options": [
+          "Speaking of …",
+          "That reminds me of …",
+          "You mentioned … earlier."
+        ]
+      },
+      {
+        "label": "Taking turns",
+        "options": [
+          "How about you?",
+          "Have you had a similar experience?",
+          "What do you think?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Following up",
+        "lines": [
+          "A: I finally started drawing again.",
+          "B: That’s great. What made you start?",
+          "A: My sister gave me a sketchbook.",
+          "B: Nice. What was the first thing you drew?"
+        ]
+      },
+      {
+        "label": "Changing direction",
+        "lines": [
+          "A: I’ve been cooking more at home.",
+          "B: That reminds me—I found a weekend food market.",
+          "A: Where is it?",
+          "B: Near the library. Would you like to go sometime?"
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which response encourages more conversation?",
@@ -310,10 +776,34 @@
         ],
         "answer": 1,
         "explanation": "Ask about the activity just mentioned."
+      },
+      {
+        "stem": "Which question follows “I started drawing”?",
+        "options": [
+          "Do you own shoes?",
+          "What do you like to draw?",
+          "What time is the train?"
+        ],
+        "answer": 1,
+        "explanation": "It continues the topic."
+      },
+      {
+        "stem": "Which expression links a new idea to an old one?",
+        "options": [
+          "End of chat.",
+          "No more talking.",
+          "That reminds me of …"
+        ],
+        "answer": 2,
+        "explanation": "It introduces an association."
       }
     ],
     "reflection": "Which topic from Days 1–6 was easiest? Which needs more practice?",
-    "roleplay": "Hold a five-minute conversation that includes at least three earlier topics and four follow-up questions."
+    "roleplay": "Hold a five-minute conversation that includes at least three earlier topics and four follow-up questions.",
+    "discussion": [
+      "Which follow-up question made someone open up recently?",
+      "Tell a short story, then invite the other person to share one."
+    ]
   },
   {
     "day": 8,
@@ -335,6 +825,52 @@
       "\"I prefer ... weather.\"",
       "\"If it rains, we can ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing today",
+        "options": [
+          "It's bright and breezy.",
+          "It looks like rain.",
+          "It's getting warmer."
+        ]
+      },
+      {
+        "label": "Sharing a preference",
+        "options": [
+          "I don't mind the cold.",
+          "I love this kind of weather.",
+          "I'm not keen on humidity."
+        ]
+      },
+      {
+        "label": "Adjusting plans",
+        "options": [
+          "Let's wait and see.",
+          "We can move it indoors.",
+          "Shall we make a backup plan?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Planning a picnic",
+        "lines": [
+          "A: It looks like rain this afternoon.",
+          "B: Should we postpone the picnic?",
+          "A: Maybe. Let’s check again at noon.",
+          "B: Good idea. If it rains, we could eat at my place."
+        ]
+      },
+      {
+        "label": "Different seasons",
+        "lines": [
+          "A: Do you like winter here?",
+          "B: I do, especially when it’s clear and cold.",
+          "A: I prefer spring. The days are longer.",
+          "B: Fair enough. What do you usually do outdoors then?"
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which sentence is natural?",
@@ -355,10 +891,34 @@
         ],
         "answer": 0,
         "explanation": "“It’s been” connects past days to now."
+      },
+      {
+        "stem": "What does “breezy” describe?",
+        "options": [
+          "Light wind",
+          "Heavy snow",
+          "Strong heat"
+        ],
+        "answer": 0,
+        "explanation": "It means mildly windy."
+      },
+      {
+        "stem": "Which is a flexible plan?",
+        "options": [
+          "Let's check again at noon.",
+          "The forecast can never change.",
+          "We must go regardless."
+        ],
+        "answer": 0,
+        "explanation": "It leaves room to respond to new information."
       }
     ],
     "reflection": "Describe today's weather and how it affects your plans.",
-    "roleplay": "Plan an outdoor outing with a backup indoor option."
+    "roleplay": "Plan an outdoor outing with a backup indoor option.",
+    "discussion": [
+      "How does the weather change your energy or mood?",
+      "Describe a favorite season without using the word “nice.”"
+    ]
   },
   {
     "day": 9,
@@ -380,6 +940,52 @@
       "\"There's a great ... nearby.\"",
       "\"What's your neighborhood like?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing atmosphere",
+        "options": [
+          "It's lively in the evenings.",
+          "It has a relaxed feel.",
+          "It's fairly quiet at night."
+        ]
+      },
+      {
+        "label": "Locating a place",
+        "options": [
+          "It's around the corner.",
+          "It's a short walk away.",
+          "It's just past the station."
+        ]
+      },
+      {
+        "label": "Recommending a spot",
+        "options": [
+          "You might like …",
+          "I’d suggest …",
+          "It's worth visiting for …"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A newcomer asks",
+        "lines": [
+          "A: Is there somewhere to study nearby?",
+          "B: There’s a library around the corner. It’s quiet upstairs.",
+          "A: Does it open on weekends?",
+          "B: I think so, but let’s check the hours online."
+        ]
+      },
+      {
+        "label": "A neighborhood walk",
+        "lines": [
+          "A: What’s that little shop across the street?",
+          "B: It’s a bakery. They make fresh bread in the mornings.",
+          "A: Should we stop in?",
+          "B: Definitely. The line is shorter before ten."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase says a place is nearby on foot?",
@@ -400,10 +1006,34 @@
         ],
         "answer": 2,
         "explanation": "Use “there is” with a singular noun."
+      },
+      {
+        "stem": "Which phrase means very nearby?",
+        "options": [
+          "Around the world",
+          "Over the month",
+          "Around the corner"
+        ],
+        "answer": 2,
+        "explanation": "It points to a nearby street or corner."
+      },
+      {
+        "stem": "Which recommendation gives a reason?",
+        "options": [
+          "Try the bakery for its fresh bread.",
+          "Try the bakery.",
+          "Bakery is there."
+        ],
+        "answer": 0,
+        "explanation": "The reason helps the listener decide."
       }
     ],
     "reflection": "What are two places a visitor should know in your area?",
-    "roleplay": "Introduce your neighborhood to someone moving in; recommend a place to eat and a way to travel."
+    "roleplay": "Introduce your neighborhood to someone moving in; recommend a place to eat and a way to travel.",
+    "discussion": [
+      "What makes your area easy or difficult to live in?",
+      "Recommend a quiet place and a lively place nearby."
+    ]
   },
   {
     "day": 10,
@@ -425,6 +1055,52 @@
       "\"Is it far from here?\"",
       "\"So I take the next right?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Asking a route",
+        "options": [
+          "Could you point me toward …?",
+          "Which way is …?",
+          "Is this the right way to …?"
+        ]
+      },
+      {
+        "label": "Giving steps",
+        "options": [
+          "Keep going until …",
+          "Take the second left.",
+          "Cross at the lights."
+        ]
+      },
+      {
+        "label": "Checking",
+        "options": [
+          "Did you say the first or second street?",
+          "So it's after the bridge?",
+          "Is it on this side?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "In a station",
+        "lines": [
+          "A: Excuse me, which way is platform four?",
+          "B: Go up those stairs and turn left.",
+          "A: Is it far?",
+          "B: No, you’ll see the signs immediately."
+        ]
+      },
+      {
+        "label": "Lost on foot",
+        "lines": [
+          "A: Is this the right way to the museum?",
+          "B: Almost. Turn around and walk to the traffic lights.",
+          "A: Then do I cross the street?",
+          "B: Yes. The museum entrance is beside the park."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "What comes after “turn right at”?",
@@ -445,10 +1121,34 @@
         ],
         "answer": 1,
         "explanation": "Restating a step lets the speaker confirm it."
+      },
+      {
+        "stem": "Which phrase asks someone to repeat a specific detail?",
+        "options": [
+          "Everything again.",
+          "You directions bad.",
+          "Did you say the first or second street?"
+        ],
+        "answer": 2,
+        "explanation": "It identifies the uncertainty."
+      },
+      {
+        "stem": "What does “turn around” mean here?",
+        "options": [
+          "Go upstairs",
+          "Face the opposite direction",
+          "Turn left only"
+        ],
+        "answer": 1,
+        "explanation": "It reverses your direction."
       }
     ],
     "reflection": "Give directions from your home to a nearby shop using three steps.",
-    "roleplay": "A visitor asks for a station; give directions and have them repeat the route back."
+    "roleplay": "A visitor asks for a station; give directions and have them repeat the route back.",
+    "discussion": [
+      "How would you explain a route without street names?",
+      "Ask for directions, repeat the steps, and thank the person."
+    ]
   },
   {
     "day": 11,
@@ -471,6 +1171,52 @@
       "\"Can I try it on?\"",
       "\"I'll think about it.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Asking for help",
+        "options": [
+          "Could you check another size?",
+          "Is this available in blue?",
+          "Where are the fitting rooms?"
+        ]
+      },
+      {
+        "label": "Comparing options",
+        "options": [
+          "This one fits better.",
+          "That one is more affordable.",
+          "I like the color of this one."
+        ]
+      },
+      {
+        "label": "Deciding",
+        "options": [
+          "I'll take it.",
+          "Let me think about it.",
+          "I'll leave it for now."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "At the fitting room",
+        "lines": [
+          "A: How does that shirt fit?",
+          "B: The sleeves are a bit long. Do you have a smaller size?",
+          "A: Let me check the rack.",
+          "B: Thanks. I'd like to compare them."
+        ]
+      },
+      {
+        "label": "Comparing gifts",
+        "lines": [
+          "A: Which notebook would make a better gift?",
+          "B: This one has thicker paper, but it costs more.",
+          "A: I think quality matters here.",
+          "B: Then I’d choose this one."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which sentence compares two prices?",
@@ -491,10 +1237,34 @@
         ],
         "answer": 0,
         "explanation": "“Try it on” is the clothing expression."
+      },
+      {
+        "stem": "Which sentence compares fit?",
+        "options": [
+          "This one fits better.",
+          "This one fits best than.",
+          "This one fitting better of."
+        ],
+        "answer": 0,
+        "explanation": "“Fits better” is a natural comparison."
+      },
+      {
+        "stem": "Which phrase declines without being rude?",
+        "options": [
+          "Your items are bad.",
+          "Go away.",
+          "I'll leave it for now."
+        ],
+        "answer": 2,
+        "explanation": "It closes the decision politely."
       }
     ],
     "reflection": "Compare two things you might buy by price, comfort, and quality.",
-    "roleplay": "Role-play asking for another size, trying it on, and deciding whether to buy."
+    "roleplay": "Role-play asking for another size, trying it on, and deciding whether to buy.",
+    "discussion": [
+      "What matters most when you choose clothes or gifts?",
+      "How would you ask a shop assistant for a less expensive option?"
+    ]
   },
   {
     "day": 12,
@@ -516,6 +1286,52 @@
       "\"That works for me.\"",
       "\"Let's meet at ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Suggesting a time",
+        "options": [
+          "Does Thursday evening work?",
+          "Would Saturday suit you?",
+          "Are you around after lunch?"
+        ]
+      },
+      {
+        "label": "Offering an alternative",
+        "options": [
+          "Could we make it later?",
+          "What about Sunday instead?",
+          "I'm free the following morning."
+        ]
+      },
+      {
+        "label": "Confirming details",
+        "options": [
+          "See you at three by the entrance.",
+          "Just to confirm, we’re meeting at …",
+          "I'll send you the address."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Two schedules",
+        "lines": [
+          "A: Are you free for lunch on Friday?",
+          "B: I have a meeting then. Could we do Saturday instead?",
+          "A: Saturday works. How about one o’clock?",
+          "B: Perfect. I’ll book a table."
+        ]
+      },
+      {
+        "label": "Changing a plan",
+        "lines": [
+          "A: Sorry, I need to move our walk. Is four okay?",
+          "B: Four is difficult for me. How about five?",
+          "A: Five works. Same meeting spot?",
+          "B: Yes, outside the park gate."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which reply proposes an alternative?",
@@ -536,10 +1352,34 @@
         ],
         "answer": 2,
         "explanation": "Both people need the practical details."
+      },
+      {
+        "stem": "Which reply confirms a complete plan?",
+        "options": [
+          "Some Saturday somewhere.",
+          "Let's meet later.",
+          "Saturday at one, outside the cafe."
+        ],
+        "answer": 2,
+        "explanation": "It includes time and place."
+      },
+      {
+        "stem": "Which phrase requests a time change?",
+        "options": [
+          "Could we make it later?",
+          "We made it yesterday.",
+          "I am time."
+        ],
+        "answer": 0,
+        "explanation": "It proposes a clear adjustment."
       }
     ],
     "reflection": "Invite someone to an activity and offer a backup time.",
-    "roleplay": "Plan a weekend outing; your partner is unavailable at your first suggested time."
+    "roleplay": "Plan a weekend outing; your partner is unavailable at your first suggested time.",
+    "discussion": [
+      "How can you say no to a plan while keeping the invitation open?",
+      "Plan an outing for three people with different schedules."
+    ]
   },
   {
     "day": 13,
@@ -561,6 +1401,52 @@
       "\"What are you studying?\"",
       "\"The hardest part is ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing a role",
+        "options": [
+          "I work with …",
+          "I’m responsible for …",
+          "My studies focus on …"
+        ]
+      },
+      {
+        "label": "Discussing a project",
+        "options": [
+          "At the moment, I'm …",
+          "I'm currently preparing …",
+          "We're trying to improve …"
+        ]
+      },
+      {
+        "label": "Asking more",
+        "options": [
+          "What does that involve?",
+          "How did you choose that field?",
+          "What do you enjoy most about it?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A first-day chat",
+        "lines": [
+          "A: What do you study?",
+          "B: Environmental science. At the moment, I'm studying city trees.",
+          "A: What does that involve?",
+          "B: We collect observations and compare neighborhoods."
+        ]
+      },
+      {
+        "label": "Explaining a job",
+        "lines": [
+          "A: What do you do at the clinic?",
+          "B: I organize appointments and answer patient questions.",
+          "A: That sounds busy. What do you enjoy most?",
+          "B: Helping people feel less confused when they arrive."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which describes a current project?",
@@ -581,10 +1467,34 @@
         ],
         "answer": 1,
         "explanation": "It asks about the person's experience."
+      },
+      {
+        "stem": "Which question asks for an explanation of unfamiliar work?",
+        "options": [
+          "How much work?",
+          "What does that involve?",
+          "What is job yes?"
+        ],
+        "answer": 1,
+        "explanation": "It invites a plain-language account."
+      },
+      {
+        "stem": "Which phrase marks a project in progress?",
+        "options": [
+          "At the moment, I'm preparing a report.",
+          "I prepare report last year.",
+          "At moment prepared forever."
+        ],
+        "answer": 0,
+        "explanation": "“At the moment” refers to the current period."
       }
     ],
     "reflection": "Explain a task you do regularly and a project you are doing now.",
-    "roleplay": "Describe a project to someone outside your field; invite and answer a clarifying question."
+    "roleplay": "Describe a project to someone outside your field; invite and answer a clarifying question.",
+    "discussion": [
+      "What is a skill you use in your work or studies?",
+      "Describe a challenge without relying on technical vocabulary."
+    ]
   },
   {
     "day": 14,
@@ -606,6 +1516,52 @@
       "\"After that ...\"",
       "\"In the end ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Opening a story",
+        "options": [
+          "Last weekend, something funny happened.",
+          "I was on my way to … when …",
+          "This happened a few days ago."
+        ]
+      },
+      {
+        "label": "Moving forward",
+        "options": [
+          "A little later …",
+          "The next thing I knew …",
+          "After a while …"
+        ]
+      },
+      {
+        "label": "Ending",
+        "options": [
+          "It turned out that …",
+          "In the end …",
+          "Looking back, I …"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A missed train",
+        "lines": [
+          "A: Why were you late yesterday?",
+          "B: I missed the train by a minute. At first, I was upset.",
+          "A: What did you do?",
+          "B: I took a bus instead and arrived just in time."
+        ]
+      },
+      {
+        "label": "A surprising find",
+        "lines": [
+          "A: How was your walk?",
+          "B: I found an old bookshop by accident.",
+          "A: Really? What happened?",
+          "B: I stayed for an hour and found a book I’d been looking for."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase signals the conclusion?",
@@ -626,10 +1582,34 @@
         ],
         "answer": 0,
         "explanation": "Context helps the listener follow events."
+      },
+      {
+        "stem": "Which phrase signals a surprise or result?",
+        "options": [
+          "Before I started …",
+          "It turned out that …",
+          "At first …"
+        ],
+        "answer": 1,
+        "explanation": "“Turned out” introduces what was discovered."
+      },
+      {
+        "stem": "Which follow-up helps a storyteller continue?",
+        "options": [
+          "Are you done now?",
+          "What happened next?",
+          "How many letters?"
+        ],
+        "answer": 1,
+        "explanation": "It invites the next event."
       }
     ],
     "reflection": "Tell a story about a small surprise this week, including your reaction.",
-    "roleplay": "Tell a two-minute story while a partner asks two follow-up questions."
+    "roleplay": "Tell a two-minute story while a partner asks two follow-up questions.",
+    "discussion": [
+      "Tell a story where a problem became an opportunity.",
+      "What detail would make your story easier for a listener to picture?"
+    ]
   },
   {
     "day": 15,
@@ -651,6 +1631,52 @@
       "\"The best part was ...\"",
       "\"How was your trip?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Asking experience",
+        "options": [
+          "Have you ever visited …?",
+          "What's the most memorable place you've been?",
+          "Have you explored anywhere nearby?"
+        ]
+      },
+      {
+        "label": "Describing a trip",
+        "options": [
+          "I spent a few days in …",
+          "We took a day trip to …",
+          "The highlight was …"
+        ]
+      },
+      {
+        "label": "Sharing a wish",
+        "options": [
+          "I'd like to return someday.",
+          "It's on my list.",
+          "I'd love to see it for myself."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A short trip",
+        "lines": [
+          "A: Did you enjoy your weekend away?",
+          "B: Yes. We spent two days by the coast.",
+          "A: What was the highlight?",
+          "B: Watching the sunrise from a quiet beach."
+        ]
+      },
+      {
+        "label": "A local discovery",
+        "lines": [
+          "A: Have you traveled anywhere lately?",
+          "B: Not far, but I explored a neighborhood across town.",
+          "A: What did you find?",
+          "B: A small gallery and a great walking path."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which sentence mentions a finished time correctly?",
@@ -671,10 +1697,34 @@
         ],
         "answer": 2,
         "explanation": "“I’d love to” describes a desired future experience."
+      },
+      {
+        "stem": "Which question invites either travel or local exploration?",
+        "options": [
+          "Have you flown internationally?",
+          "How many stamps are in your passport?",
+          "Have you explored anywhere nearby?"
+        ],
+        "answer": 2,
+        "explanation": "It welcomes nearby experiences."
+      },
+      {
+        "stem": "What does “the highlight” mean?",
+        "options": [
+          "The highest building",
+          "The first hour",
+          "The best or most memorable part"
+        ],
+        "answer": 2,
+        "explanation": "It names a standout moment."
       }
     ],
     "reflection": "Describe a trip or local outing using one sensory detail.",
-    "roleplay": "Ask a partner about a memorable place and explain where you would like to go next."
+    "roleplay": "Ask a partner about a memorable place and explain where you would like to go next.",
+    "discussion": [
+      "Describe a place through sounds, smells, or colors.",
+      "Where would you take a visitor for a memorable afternoon?"
+    ]
   },
   {
     "day": 16,
@@ -697,6 +1747,52 @@
       "\"Is breakfast included?\"",
       "\"Could I get an extra ...?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Checking in",
+        "options": [
+          "I booked a room under …",
+          "I have a reservation in the name of …",
+          "I'd like to check in, please."
+        ]
+      },
+      {
+        "label": "Asking about facilities",
+        "options": [
+          "Where can I find the lift?",
+          "What time does breakfast start?",
+          "Is there a place to store luggage?"
+        ]
+      },
+      {
+        "label": "Requesting help",
+        "options": [
+          "Could someone help with …?",
+          "Would it be possible to …?",
+          "Could I change rooms?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "An early arrival",
+        "lines": [
+          "A: Hi, my reservation is under Chen. Is early check-in possible?",
+          "B: The room isn't ready yet, but we can store your bag.",
+          "A: That would help. When should I return?",
+          "B: Around two o'clock."
+        ]
+      },
+      {
+        "label": "A room issue",
+        "lines": [
+          "A: Excuse me, the light in my room isn't working.",
+          "B: I'm sorry. We'll send someone to check it.",
+          "A: Thank you. About how long will that take?",
+          "B: I expect around twenty minutes."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "How do you identify a booking?",
@@ -717,10 +1813,34 @@
         ],
         "answer": 1,
         "explanation": "“Could I” frames a courteous request."
+      },
+      {
+        "stem": "Which request asks about leaving a bag before check-in?",
+        "options": [
+          "Is breakfast a suitcase?",
+          "Is there a place to store luggage?",
+          "Can luggage sleep?"
+        ],
+        "answer": 1,
+        "explanation": "“Store luggage” means keep bags temporarily."
+      },
+      {
+        "stem": "Which response checks the timing of a repair?",
+        "options": [
+          "Do you know lights?",
+          "Repair it quickly now.",
+          "About how long will that take?"
+        ],
+        "answer": 2,
+        "explanation": "It asks for an estimate."
       }
     ],
     "reflection": "Ask about check-in time and one included service.",
-    "roleplay": "Check into a hotel, confirm a booking, ask two questions, and request an extra item."
+    "roleplay": "Check into a hotel, confirm a booking, ask two questions, and request an extra item.",
+    "discussion": [
+      "How would you ask if a late checkout is possible?",
+      "Explain a room problem in one specific sentence."
+    ]
   },
   {
     "day": 17,
@@ -742,6 +1862,52 @@
       "\"I need to rest.\"",
       "\"How are you feeling now?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing a symptom",
+        "options": [
+          "I feel a bit dizzy.",
+          "I have a sore throat.",
+          "I haven't felt well since …"
+        ]
+      },
+      {
+        "label": "Giving duration",
+        "options": [
+          "It started this morning.",
+          "I've felt this way for two days.",
+          "Since yesterday evening …"
+        ]
+      },
+      {
+        "label": "Showing concern",
+        "options": [
+          "Do you want to sit down?",
+          "Is there anything I can do?",
+          "Would a break help?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Needing a pause",
+        "lines": [
+          "A: Are you okay to continue?",
+          "B: I'm feeling a little dizzy. Could we take a break?",
+          "A: Of course. Let's sit down.",
+          "B: Thanks. I'll let you know when I feel ready."
+        ]
+      },
+      {
+        "label": "Checking in later",
+        "lines": [
+          "A: How are you feeling today?",
+          "B: Better, thanks. I rested yesterday.",
+          "A: Glad to hear it. Do you need anything?",
+          "B: No, I'm okay now, but I appreciate you asking."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase gives a starting point?",
@@ -762,10 +1928,34 @@
         ],
         "answer": 0,
         "explanation": "Acknowledgment plus an offer is supportive."
+      },
+      {
+        "stem": "Which phrase names a length of time?",
+        "options": [
+          "At two days long",
+          "For two days",
+          "Since two days"
+        ],
+        "answer": 1,
+        "explanation": "“For” introduces a duration."
+      },
+      {
+        "stem": "Which question offers help without assuming?",
+        "options": [
+          "You need my plan.",
+          "I know exactly what's wrong.",
+          "Is there anything I can do?"
+        ],
+        "answer": 2,
+        "explanation": "It lets the person choose."
       }
     ],
     "reflection": "Describe a minor symptom and when it started, without giving medical advice.",
-    "roleplay": "A colleague feels unwell. Ask how they are, offer practical help, and respect their answer."
+    "roleplay": "A colleague feels unwell. Ask how they are, offer practical help, and respect their answer.",
+    "discussion": [
+      "How could you ask to pause an activity when you feel unwell?",
+      "What is a respectful way to check in with someone later?"
+    ]
   },
   {
     "day": 18,
@@ -787,6 +1977,52 @@
       "\"I'm trying to improve my ...\"",
       "\"Let's take it easy.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Talking about activity",
+        "options": [
+          "I like going for walks.",
+          "I do a little stretching.",
+          "I enjoy moving outdoors."
+        ]
+      },
+      {
+        "label": "Explaining a goal",
+        "options": [
+          "I'm building a routine.",
+          "I want to improve my stamina.",
+          "I'm taking small steps."
+        ]
+      },
+      {
+        "label": "Setting a pace",
+        "options": [
+          "Let's slow down.",
+          "I need a short break.",
+          "We can go at a comfortable pace."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A gentle walk",
+        "lines": [
+          "A: Do you want to join me for a walk after lunch?",
+          "B: Sure, but I only have twenty minutes.",
+          "A: That's fine. We can take a short route.",
+          "B: Great. I enjoy getting fresh air."
+        ]
+      },
+      {
+        "label": "A new routine",
+        "lines": [
+          "A: Have you been exercising lately?",
+          "B: I'm trying to walk more often.",
+          "A: What's helping you stick with it?",
+          "B: Going with a friend once a week."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase describes frequency?",
@@ -807,10 +2043,34 @@
         ],
         "answer": 2,
         "explanation": "It asks for less intensity."
+      },
+      {
+        "stem": "Which phrase describes a gradual approach?",
+        "options": [
+          "I'm taking small steps.",
+          "I must change overnight.",
+          "Everything must be perfect."
+        ],
+        "answer": 0,
+        "explanation": "It emphasizes manageable progress."
+      },
+      {
+        "stem": "Which reply respects a time limit?",
+        "options": [
+          "Then don't come.",
+          "You must stay an hour.",
+          "We can take a short route."
+        ],
+        "answer": 2,
+        "explanation": "It adjusts to the person's situation."
       }
     ],
     "reflection": "What physical activity feels enjoyable or manageable to you?",
-    "roleplay": "Compare two activities and invite a friend to try an easy session."
+    "roleplay": "Compare two activities and invite a friend to try an easy session.",
+    "discussion": [
+      "What makes it easier for you to keep an activity routine?",
+      "Invite a friend to an activity with a low-pressure option."
+    ]
   },
   {
     "day": 19,
@@ -832,6 +2092,52 @@
       "\"I'm not usually into ...\"",
       "\"What did you think of it?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing a story",
+        "options": [
+          "It's about …",
+          "The story follows …",
+          "It takes place in …"
+        ]
+      },
+      {
+        "label": "Evaluating it",
+        "options": [
+          "I liked the pacing.",
+          "The characters felt believable.",
+          "The ending stayed with me."
+        ]
+      },
+      {
+        "label": "Recommending it",
+        "options": [
+          "You might enjoy it if …",
+          "It's worth a listen.",
+          "I think this is your kind of book."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A music suggestion",
+        "lines": [
+          "A: What are you listening to lately?",
+          "B: A calm jazz album. I like it when I need to focus.",
+          "A: Is there a track I should start with?",
+          "B: Try the first one. It sets the mood."
+        ]
+      },
+      {
+        "label": "A book suggestion",
+        "lines": [
+          "A: I need something light to read.",
+          "B: You might enjoy this short novel. It's funny and easy to follow.",
+          "A: Is it a mystery?",
+          "B: A little, but the focus is on the friendships."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which sentence gives a reason?",
@@ -852,10 +2158,34 @@
         ],
         "answer": 1,
         "explanation": "Ask about genre preference."
+      },
+      {
+        "stem": "What does “it takes place in London” describe?",
+        "options": [
+          "The author",
+          "The setting",
+          "The price"
+        ],
+        "answer": 1,
+        "explanation": "“Takes place” tells where a story happens."
+      },
+      {
+        "stem": "Which recommendation considers the listener?",
+        "options": [
+          "You might enjoy it if you like mysteries.",
+          "I liked it so everyone must.",
+          "Read it now."
+        ],
+        "answer": 0,
+        "explanation": "It connects the suggestion to their taste."
       }
     ],
     "reflection": "Recommend a book, film, song, or show with a premise and two reasons.",
-    "roleplay": "Ask about a partner's taste, then give a spoiler-free recommendation."
+    "roleplay": "Ask about a partner's taste, then give a spoiler-free recommendation.",
+    "discussion": [
+      "How does a film or song change your mood?",
+      "Describe a favorite scene without revealing the ending."
+    ]
   },
   {
     "day": 20,
@@ -877,6 +2207,52 @@
       "\"Have you tried restarting it?\"",
       "\"I'm having trouble with ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Explaining a feature",
+        "options": [
+          "Tap the menu icon.",
+          "Open the settings page.",
+          "Scroll down to …"
+        ]
+      },
+      {
+        "label": "Checking progress",
+        "options": [
+          "Can you see that option?",
+          "Did that step work?",
+          "What appears on your screen?"
+        ]
+      },
+      {
+        "label": "Trying a fix",
+        "options": [
+          "Let's check the connection.",
+          "Maybe update the app.",
+          "We could try it again later."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Setting an alert",
+        "lines": [
+          "A: How do I turn on reminders?",
+          "B: Open settings and choose notifications.",
+          "A: I see it. What next?",
+          "B: Turn on daily reminders, then choose a time."
+        ]
+      },
+      {
+        "label": "A login issue",
+        "lines": [
+          "A: The app keeps asking me to sign in.",
+          "B: That sounds annoying. Does it happen after you close it?",
+          "A: Yes, every time.",
+          "B: Let's check whether it saved your account settings."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which is a gentle troubleshooting suggestion?",
@@ -897,10 +2273,34 @@
         ],
         "answer": 0,
         "explanation": "“Then” sequences the action."
+      },
+      {
+        "stem": "Which question checks the other person's screen?",
+        "options": [
+          "You understand, yes?",
+          "Can you see that option?",
+          "Do you see computers?"
+        ],
+        "answer": 1,
+        "explanation": "It checks whether instructions match their view."
+      },
+      {
+        "stem": "Which phrase starts an instruction clearly?",
+        "options": [
+          "Open the settings page.",
+          "Settings perhaps there.",
+          "You could be settings."
+        ],
+        "answer": 0,
+        "explanation": "It names a direct action."
       }
     ],
     "reflection": "Explain how to do one useful thing in an app, in three steps.",
-    "roleplay": "Help a friend solve a simple app problem; check after each step whether it worked."
+    "roleplay": "Help a friend solve a simple app problem; check after each step whether it worked.",
+    "discussion": [
+      "How would you explain a feature to someone with a different phone?",
+      "What question would you ask before suggesting a technical fix?"
+    ]
   },
   {
     "day": 21,
@@ -922,6 +2322,52 @@
       "\"I prefer ... because ...\"",
       "\"What makes you say that?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Stating a view",
+        "options": [
+          "I lean toward …",
+          "For me, … works better.",
+          "My first choice would be …"
+        ]
+      },
+      {
+        "label": "Giving a reason",
+        "options": [
+          "The main reason is …",
+          "What I like about it is …",
+          "It saves me time because …"
+        ]
+      },
+      {
+        "label": "Acknowledging another view",
+        "options": [
+          "I can see why you'd choose that.",
+          "That's a fair point.",
+          "We might value different things."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Choosing a format",
+        "lines": [
+          "A: Would you rather learn from videos or books?",
+          "B: I lean toward books because I can go at my own pace.",
+          "A: I prefer videos for demonstrations.",
+          "B: That makes sense. Different topics need different formats."
+        ]
+      },
+      {
+        "label": "Comparing tools",
+        "lines": [
+          "A: Do you like digital calendars?",
+          "B: Mostly, because reminders help me.",
+          "A: I use paper. It helps me remember.",
+          "B: I can see why that works for you."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which reply disagrees politely?",
@@ -942,10 +2388,34 @@
         ],
         "answer": 2,
         "explanation": "Reasons and curiosity support conversation."
+      },
+      {
+        "stem": "Which phrase acknowledges another preference?",
+        "options": [
+          "That's a fair point.",
+          "Your choice makes no sense.",
+          "Only my choice works."
+        ],
+        "answer": 0,
+        "explanation": "It recognizes the other person's reasoning."
+      },
+      {
+        "stem": "Which sentence gives a specific reason?",
+        "options": [
+          "I choose the bus because I can read on it.",
+          "I choose the bus.",
+          "Bus best forever."
+        ],
+        "answer": 0,
+        "explanation": "It explains the benefit."
       }
     ],
     "reflection": "Choose two apps or activities; say which you prefer and why.",
-    "roleplay": "Discuss two familiar choices; each person gives a reason and acknowledges the other view."
+    "roleplay": "Discuss two familiar choices; each person gives a reason and acknowledges the other view.",
+    "discussion": [
+      "When did a conversation change your opinion?",
+      "Discuss a preference where there is no single right answer."
+    ]
   },
   {
     "day": 22,
@@ -967,6 +2437,52 @@
       "\"What does it mean to you?\"",
       "\"That sounds like fun.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing what happens",
+        "options": [
+          "We gather every year.",
+          "People often share a meal.",
+          "We decorate the house together."
+        ]
+      },
+      {
+        "label": "Explaining significance",
+        "options": [
+          "It reminds us of …",
+          "It's a chance to …",
+          "The day matters because …"
+        ]
+      },
+      {
+        "label": "Asking with respect",
+        "options": [
+          "How do you celebrate it?",
+          "Is there a special story behind it?",
+          "What do you enjoy most about the day?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A community festival",
+        "lines": [
+          "A: What's happening in the park today?",
+          "B: It's a neighborhood festival. There are music and food stalls.",
+          "A: Is it held every year?",
+          "B: Yes. It brings everyone together."
+        ]
+      },
+      {
+        "label": "A personal ritual",
+        "lines": [
+          "A: Do you do anything special for birthdays?",
+          "B: I keep it simple. I cook dinner with close friends.",
+          "A: That sounds lovely. How did that tradition start?",
+          "B: We began it a few years ago when we all lived nearby."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which question asks about meaning?",
@@ -987,10 +2503,34 @@
         ],
         "answer": 1,
         "explanation": "“Usually” marks a repeated practice."
+      },
+      {
+        "stem": "Which question asks about the origin of a custom?",
+        "options": [
+          "Is it every day?",
+          "How did that tradition start?",
+          "How many balloons?"
+        ],
+        "answer": 1,
+        "explanation": "It invites the story behind it."
+      },
+      {
+        "stem": "Which sentence states significance?",
+        "options": [
+          "It's a chance to see distant relatives.",
+          "There is a table.",
+          "We ate dinner."
+        ],
+        "answer": 0,
+        "explanation": "It explains why the event matters."
       }
     ],
     "reflection": "Describe a tradition in your family, community, or friend group.",
-    "roleplay": "Explain a celebration to a visitor and ask about one important to them."
+    "roleplay": "Explain a celebration to a visitor and ask about one important to them.",
+    "discussion": [
+      "Describe a tradition that changed over time.",
+      "How could you ask about a custom without assuming everyone follows it?"
+    ]
   },
   {
     "day": 23,
@@ -1012,6 +2552,52 @@
       "\"I learned that ...\"",
       "\"Since then, I've ...\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Describing the past",
+        "options": [
+          "I used to …",
+          "Back then, I …",
+          "At first, I found it hard to …"
+        ]
+      },
+      {
+        "label": "Describing change",
+        "options": [
+          "Over time, I got better at …",
+          "That experience taught me …",
+          "Since then, I've …"
+        ]
+      },
+      {
+        "label": "Asking a story",
+        "options": [
+          "What made you decide to try?",
+          "What was the turning point?",
+          "How do you feel about it now?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Learning to drive",
+        "lines": [
+          "A: Was driving easy for you to learn?",
+          "B: No, I used to feel nervous in traffic.",
+          "A: What helped?",
+          "B: Practicing on quiet streets with a patient teacher."
+        ]
+      },
+      {
+        "label": "Changing habits",
+        "lines": [
+          "A: You seem comfortable presenting now.",
+          "B: I wasn't always. At first, I read every word from a page.",
+          "A: What changed?",
+          "B: I started practicing with friends. Since then, it's felt easier."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which describes a past habit that changed?",
@@ -1032,10 +2618,34 @@
         ],
         "answer": 0,
         "explanation": "“Since then” marks continuing change."
+      },
+      {
+        "stem": "Which question asks about the moment of change?",
+        "options": [
+          "What did you eat?",
+          "Where is your watch?",
+          "What was the turning point?"
+        ],
+        "answer": 2,
+        "explanation": "A “turning point” is an event that changes direction."
+      },
+      {
+        "stem": "Which phrase describes gradual improvement?",
+        "options": [
+          "Over time, I got better at it.",
+          "Instantly I am perfect.",
+          "Before tomorrow I improved."
+        ],
+        "answer": 0,
+        "explanation": "“Over time” shows a process."
       }
     ],
     "reflection": "What is a skill you learned through practice? What was hard at first?",
-    "roleplay": "Tell a before-and-after story about learning a skill; answer what helped most."
+    "roleplay": "Tell a before-and-after story about learning a skill; answer what helped most.",
+    "discussion": [
+      "What changed your mind about something you once disliked?",
+      "Which small action helped you improve a skill?"
+    ]
   },
   {
     "day": 24,
@@ -1057,6 +2667,52 @@
       "\"My next step is ...\"",
       "\"What are you looking forward to?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Expressing a hope",
+        "options": [
+          "I'd like to …",
+          "One day, I hope to …",
+          "I'm looking forward to …"
+        ]
+      },
+      {
+        "label": "Planning a step",
+        "options": [
+          "I'm going to start by …",
+          "This week, I'll …",
+          "I've set aside time to …"
+        ]
+      },
+      {
+        "label": "Talking about obstacles",
+        "options": [
+          "The tricky part might be …",
+          "If that happens, I could …",
+          "I'll ask for help with …"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A language goal",
+        "lines": [
+          "A: What are you working toward?",
+          "B: I'd like to speak more comfortably in meetings.",
+          "A: What will you try first?",
+          "B: I'll ask one question in our next team call."
+        ]
+      },
+      {
+        "label": "A travel plan",
+        "lines": [
+          "A: Are you planning any trips?",
+          "B: I hope to visit my aunt this winter.",
+          "A: Have you chosen a date?",
+          "B: Not yet. I’m going to check my schedule next week."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which is a concrete next step?",
@@ -1077,10 +2733,34 @@
         ],
         "answer": 2,
         "explanation": "“Hope to” takes the base verb."
+      },
+      {
+        "stem": "Which next step is concrete?",
+        "options": [
+          "I'll improve somehow.",
+          "I will never be nervous.",
+          "I'll ask one question in Tuesday's meeting."
+        ],
+        "answer": 2,
+        "explanation": "It names an action and occasion."
+      },
+      {
+        "stem": "Which phrase identifies a possible difficulty?",
+        "options": [
+          "It was difficult yesterday.",
+          "Everything is solved.",
+          "The tricky part might be finding time."
+        ],
+        "answer": 2,
+        "explanation": "It anticipates an obstacle."
       }
     ],
     "reflection": "Name one small goal and the first action you can take this week.",
-    "roleplay": "Ask a partner about a goal, help them make a next step specific, and share your own."
+    "roleplay": "Ask a partner about a goal, help them make a next step specific, and share your own.",
+    "discussion": [
+      "What might interrupt your goal, and how would you adapt?",
+      "Ask someone to help you make a vague goal more specific."
+    ]
   },
   {
     "day": 25,
@@ -1102,6 +2782,52 @@
       "\"That might work.\"",
       "\"What else can we do?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Explaining the issue",
+        "options": [
+          "Something has come up.",
+          "The original time no longer works.",
+          "We have a mix-up with …"
+        ]
+      },
+      {
+        "label": "Proposing a fix",
+        "options": [
+          "Could we reschedule?",
+          "What if we tried …?",
+          "One option is to …"
+        ]
+      },
+      {
+        "label": "Confirming a resolution",
+        "options": [
+          "That solves it for me.",
+          "Let's agree on …",
+          "I'll take care of the next step."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A scheduling conflict",
+        "lines": [
+          "A: Something has come up at two. Could we move our call?",
+          "B: I can do three or four.",
+          "A: Four works better. I'll send a new invitation.",
+          "B: Thanks. I'll accept it when it arrives."
+        ]
+      },
+      {
+        "label": "A missing item",
+        "lines": [
+          "A: We need three chairs, but there are only two.",
+          "B: I can get another from next door.",
+          "A: Thanks. I'll set up the table while you do that.",
+          "B: Perfect. That should solve it."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase proposes a solution?",
@@ -1122,10 +2848,34 @@
         ],
         "answer": 1,
         "explanation": "Shared details prevent a second problem."
+      },
+      {
+        "stem": "Which phrase introduces a possible fix?",
+        "options": [
+          "It cannot work.",
+          "This is terrible.",
+          "One option is to move the call."
+        ],
+        "answer": 2,
+        "explanation": "It opens a solution discussion."
+      },
+      {
+        "stem": "Which response gives ownership of the next action?",
+        "options": [
+          "I'll send a new invitation.",
+          "Someone might do it.",
+          "It'll happen somehow."
+        ],
+        "answer": 0,
+        "explanation": "It states who will act."
       }
     ],
     "reflection": "Describe a small scheduling problem and suggest two ways to fix it.",
-    "roleplay": "A delivery or meeting changes unexpectedly; explain the effect and agree on a practical fix."
+    "roleplay": "A delivery or meeting changes unexpectedly; explain the effect and agree on a practical fix.",
+    "discussion": [
+      "What information should you include when reporting a problem?",
+      "Solve a conflict where both people have different constraints."
+    ]
   },
   {
     "day": 26,
@@ -1147,6 +2897,52 @@
       "\"Could you help me resolve this?\"",
       "\"I appreciate your help.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Starting politely",
+        "options": [
+          "Excuse me, I think there's been a mistake.",
+          "I'm having an issue with …",
+          "Could I ask about my order?"
+        ]
+      },
+      {
+        "label": "Explaining specifics",
+        "options": [
+          "I requested …, but received …",
+          "The item arrived damaged.",
+          "The receipt shows a different price."
+        ]
+      },
+      {
+        "label": "Requesting a fix",
+        "options": [
+          "Could this be replaced?",
+          "Would a refund be possible?",
+          "Can we correct the order?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A billing error",
+        "lines": [
+          "A: Excuse me, I think there’s a mistake on my bill.",
+          "B: I'm sorry. What seems wrong?",
+          "A: It includes two drinks, but I only ordered one.",
+          "B: You're right. I'll remove the extra charge."
+        ]
+      },
+      {
+        "label": "A delayed order",
+        "lines": [
+          "A: My order hasn't arrived, and it was due yesterday.",
+          "B: I'm sorry about the delay. Let me check the tracking.",
+          "A: Thank you. Could you tell me the updated delivery date?",
+          "B: Of course. I'll confirm it shortly."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which complaint gives useful detail?",
@@ -1167,10 +2963,34 @@
         ],
         "answer": 0,
         "explanation": "It asks for the action you want."
+      },
+      {
+        "stem": "Which phrase identifies a specific billing error?",
+        "options": [
+          "The bill lists two drinks, but I had one.",
+          "My bill is bad.",
+          "You always charge wrong."
+        ],
+        "answer": 0,
+        "explanation": "It describes an observable mismatch."
+      },
+      {
+        "stem": "Which request asks for an updated timeline?",
+        "options": [
+          "Could you tell me the new delivery date?",
+          "Where is time?",
+          "I need it always."
+        ],
+        "answer": 0,
+        "explanation": "It requests a concrete date."
       }
     ],
     "reflection": "Write or say a clear complaint about a harmless wrong order.",
-    "roleplay": "Role-play customer and employee; describe the mismatch and agree on an exchange or correction."
+    "roleplay": "Role-play customer and employee; describe the mismatch and agree on an exchange or correction.",
+    "discussion": [
+      "How would you respond if the first proposed solution does not work?",
+      "Explain a service problem in two calm, specific sentences."
+    ]
   },
   {
     "day": 27,
@@ -1192,6 +3012,52 @@
       "\"If I were you, I'd ...\"",
       "\"It's up to you.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Acknowledging a problem",
+        "options": [
+          "That sounds difficult.",
+          "I can see why you're frustrated.",
+          "I'm sorry you're dealing with that."
+        ]
+      },
+      {
+        "label": "Exploring options",
+        "options": [
+          "What have you tried?",
+          "Would it help to …?",
+          "Have you thought about …?"
+        ]
+      },
+      {
+        "label": "Respecting choice",
+        "options": [
+          "You know your situation best.",
+          "Take what works for you.",
+          "It's your decision."
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A time problem",
+        "lines": [
+          "A: I keep missing my practice sessions.",
+          "B: That sounds frustrating. What time have you tried?",
+          "A: Late at night, when I'm tired.",
+          "B: Would five minutes after breakfast be easier?"
+        ]
+      },
+      {
+        "label": "A nervous friend",
+        "lines": [
+          "A: I’m worried about speaking in a group.",
+          "B: I get that. Would it help to practice with one friend first?",
+          "A: Maybe. That sounds less stressful.",
+          "B: You can try it once and see how it feels."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which suggestion leaves room for choice?",
@@ -1212,10 +3078,34 @@
         ],
         "answer": 2,
         "explanation": "Learning context makes advice relevant."
+      },
+      {
+        "stem": "Which phrase shows empathy before advice?",
+        "options": [
+          "This is easy.",
+          "I can see why you're frustrated.",
+          "You should do what I say."
+        ],
+        "answer": 1,
+        "explanation": "It recognizes the person's feeling."
+      },
+      {
+        "stem": "Which statement respects someone's choice?",
+        "options": [
+          "You know your situation best.",
+          "You have to follow this.",
+          "My way is the only way."
+        ],
+        "answer": 0,
+        "explanation": "It leaves the final decision to them."
       }
     ],
     "reflection": "A friend struggles to make time for practice. Suggest two small options.",
-    "roleplay": "Listen to a partner's problem, ask one question, and offer gentle advice without insisting."
+    "roleplay": "Listen to a partner's problem, ask one question, and offer gentle advice without insisting.",
+    "discussion": [
+      "When do you prefer listening to advice rather than receiving solutions?",
+      "Offer advice to someone who has already tried your first suggestion."
+    ]
   },
   {
     "day": 28,
@@ -1239,6 +3129,52 @@
       "\"What do you mean by ...?\"",
       "\"Let me put it another way.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Switching smoothly",
+        "options": [
+          "That reminds me …",
+          "While we're on the subject …",
+          "By the way …"
+        ]
+      },
+      {
+        "label": "Requesting clarification",
+        "options": [
+          "Could you say that another way?",
+          "Do you mean …?",
+          "Could you give an example?"
+        ]
+      },
+      {
+        "label": "Repairing your message",
+        "options": [
+          "What I meant was …",
+          "Let me rephrase that.",
+          "I should have said …"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Unclear directions",
+        "lines": [
+          "A: The event is by the old hall.",
+          "B: Sorry, which hall do you mean?",
+          "A: The one across from the train station.",
+          "B: Ah, I know it now. Thanks for clarifying."
+        ]
+      },
+      {
+        "label": "Changing topics",
+        "lines": [
+          "A: I’ve been reading more recently.",
+          "B: While we’re on the subject, have you visited the new library?",
+          "A: Not yet. Is it open late?",
+          "B: Until eight on weekdays, I think."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase requests clarification?",
@@ -1259,10 +3195,34 @@
         ],
         "answer": 1,
         "explanation": "“By the way” introduces a related or new thought."
+      },
+      {
+        "stem": "Which phrase asks for an example?",
+        "options": [
+          "Why are you confusing?",
+          "I already know.",
+          "Could you give an example?"
+        ],
+        "answer": 2,
+        "explanation": "It requests a concrete illustration."
+      },
+      {
+        "stem": "Which phrase repairs your own explanation?",
+        "options": [
+          "You heard wrong.",
+          "Forget the topic.",
+          "Let me rephrase that."
+        ],
+        "answer": 2,
+        "explanation": "It offers clearer wording."
       }
     ],
     "reflection": "Which phrase helps you recover when someone is confused?",
-    "roleplay": "Talk for ten minutes across three topics, use a transition, and clarify at least one detail."
+    "roleplay": "Talk for ten minutes across three topics, use a transition, and clarify at least one detail.",
+    "discussion": [
+      "Describe a time you misunderstood a detail and corrected it.",
+      "Switch from food to travel in a natural way."
+    ]
   },
   {
     "day": 29,
@@ -1284,6 +3244,52 @@
       "\"How do you feel about it?\"",
       "\"I haven't looked into it enough yet.\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Referring to a source",
+        "options": [
+          "According to the library notice …",
+          "I saw an announcement from …",
+          "The organizer says …"
+        ]
+      },
+      {
+        "label": "Showing uncertainty",
+        "options": [
+          "I think it starts next week.",
+          "I'm not sure of the exact date.",
+          "I'd need to check."
+        ]
+      },
+      {
+        "label": "Inviting another view",
+        "options": [
+          "What do you make of it?",
+          "Would that interest you?",
+          "Have you heard more about it?"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "A community class",
+        "lines": [
+          "A: I saw an announcement about a free art class.",
+          "B: Who’s running it?",
+          "A: The community center, I think. I'd need to check the details.",
+          "B: Let me know what you find. I might join."
+        ]
+      },
+      {
+        "label": "A new park",
+        "lines": [
+          "A: Have you heard about the new park plan?",
+          "B: Just a little. What do we know so far?",
+          "A: According to the council notice, there’s a public meeting next week.",
+          "B: I’d like to hear the details before deciding what I think."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which phrase signals uncertainty honestly?",
@@ -1304,10 +3310,34 @@
         ],
         "answer": 0,
         "explanation": "The organizer can confirm the details."
+      },
+      {
+        "stem": "Which phrase attributes a claim?",
+        "options": [
+          "Everyone knows …",
+          "I feel it must be true …",
+          "According to the library notice …"
+        ],
+        "answer": 2,
+        "explanation": "It names a source."
+      },
+      {
+        "stem": "Which question invites a balanced discussion?",
+        "options": [
+          "Who agrees with me?",
+          "What do we know so far?",
+          "Why are they wrong?"
+        ],
+        "answer": 1,
+        "explanation": "It asks for known information."
       }
     ],
     "reflection": "Describe a community event and separate one fact from one opinion.",
-    "roleplay": "Discuss a local event; ask for a source, express interest, and acknowledge uncertainty."
+    "roleplay": "Discuss a local event; ask for a source, express interest, and acknowledge uncertainty.",
+    "discussion": [
+      "How might you verify the date of a local event?",
+      "What is one opinion you could share while admitting uncertainty?"
+    ]
   },
   {
     "day": 30,
@@ -1329,6 +3359,52 @@
       "\"I'd like to keep improving ...\"",
       "\"What should we talk about next?\""
     ],
+    "phraseFamilies": [
+      {
+        "label": "Reflecting on progress",
+        "options": [
+          "I've become more comfortable with …",
+          "I'm proud that I can …",
+          "I still want to work on …"
+        ]
+      },
+      {
+        "label": "Keeping a chat going",
+        "options": [
+          "Tell me more about that.",
+          "What happened next?",
+          "How about you?"
+        ]
+      },
+      {
+        "label": "Planning ahead",
+        "options": [
+          "Next month, I'll focus on …",
+          "I'll keep a list of …",
+          "I'll practice by …"
+        ]
+      }
+    ],
+    "extraDialogues": [
+      {
+        "label": "Looking back",
+        "lines": [
+          "A: Which conversation felt easiest this month?",
+          "B: Talking about food. I can ask follow-up questions more naturally now.",
+          "A: What’s still challenging?",
+          "B: Explaining a long story without losing my place."
+        ]
+      },
+      {
+        "label": "Looking ahead",
+        "lines": [
+          "A: What will you practice next month?",
+          "B: I’ll record a two-minute story each week.",
+          "A: How will you know you're improving?",
+          "B: I'll listen for clearer order and fewer long pauses."
+        ]
+      }
+    ],
     "quiz": [
       {
         "stem": "Which goal is specific and repeatable?",
@@ -1349,9 +3425,33 @@
         ],
         "answer": 2,
         "explanation": "It adds detail and returns a question."
+      },
+      {
+        "stem": "Which reflection names a specific strength?",
+        "options": [
+          "I'm perfect.",
+          "Everything is fine.",
+          "I can ask more follow-up questions now."
+        ],
+        "answer": 2,
+        "explanation": "It identifies a skill."
+      },
+      {
+        "stem": "Which plan gives a way to observe progress?",
+        "options": [
+          "I'll just hope for the best.",
+          "I'll never make mistakes.",
+          "I'll record a story weekly and review it."
+        ],
+        "answer": 2,
+        "explanation": "A repeatable action and review create evidence."
       }
     ],
     "reflection": "Which three phrases now feel natural? What two skills need attention?",
-    "roleplay": "Hold a 15-minute conversation covering four topics. Record it, review it, and set two goals for next month."
+    "roleplay": "Hold a 15-minute conversation covering four topics. Record it, review it, and set two goals for next month.",
+    "discussion": [
+      "Which phrase helped you recover when you did not know a word?",
+      "What two conversation topics would you revisit next month?"
+    ]
   }
 ]
